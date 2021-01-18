@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"nattr::delete_account" -> "lay::fragment_user_info_setting.xml"
+"lay::fragment_user_info_setting.xml" -> "toplay::fragment_user_info_setting.xml"
+"toplay::fragment_user_info_setting.xml" -> "act::UserInfoSettingFragment.smali"
+}

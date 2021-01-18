@@ -1,0 +1,7 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::nz"
+"nattr::nz" -> "lay::cg.xml"
+"nattr::nz" -> "act::PrivacyActivity.smali"
+"lay::cg.xml" -> "toplay::cg.xml"
+"toplay::cg.xml" -> "act::PrivacyActivity.smali"
+}

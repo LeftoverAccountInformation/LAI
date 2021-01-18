@@ -1,0 +1,4 @@
+digraph G {
+"adstr::You can cancel your membership or delete your account at any time." -> "nattr::consent_tos_page_line_1"
+"adstr::We can cancel your account if you act inappropriately." -> "nattr::consent_tos_page_line_5"
+}

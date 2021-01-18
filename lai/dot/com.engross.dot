@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::This will delete all the data stored in your account." -> "nattr::delete_account_note"
+"adstr::Please Sign In to delete the account." -> "nattr::sign_in_to_delete"
+"nattr::delete_account" -> "act::AccountActivity.smali"
+"nattr::delete_account_note" -> "act::AccountActivity.smali"
+"nattr::sign_in_to_delete" -> "act::SignUpActivity.smali"
+}

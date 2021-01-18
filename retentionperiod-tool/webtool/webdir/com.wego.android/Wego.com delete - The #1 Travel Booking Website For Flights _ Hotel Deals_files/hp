@@ -1,0 +1,106 @@
+
+    (function () {
+        var s = document.createElement('script');
+        var p = "var i = document.createElement('img');\
+    i.setAttribute('alt', '');\
+    i.setAttribute('height', '1');\
+    i.setAttribute('width', '1');\
+    i.setAttribute('style', 'display: none;');\
+    i.setAttribute('src', 'https://cm.g.doubleclick.net/pixel?google_nid=sojern__adx_open_bidder_seat&google_hm=uwGAkhpBEet-s4oGjE3w0g&google_cm&google_sc&sjrn_id=WJMXAFm-muEHQxEwgKT0oyDaHd5-emCTU9gnOXYjS3h_kVDVpaRus0P_iDbgH8Pg');\
+    document.body.appendChild(i);\
+";
+
+        s.type = 'text/javascript';
+        s.async = true;
+        if (s.textContent) {
+            s.textContent = p;
+        } else {
+            s.text = p;
+        }
+        document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+    
+    (function () {
+        var s = document.createElement('script');
+        var p = "var i = document.createElement('img');\
+    i.setAttribute('alt', '');\
+    i.setAttribute('height', '1');\
+    i.setAttribute('width', '1');\
+    i.setAttribute('style', 'display: none;');\
+    i.setAttribute('src', 'https://ib.adnxs.com/getuid?https://pixel.sojern.com/idSync/apn?sjrn_cid=WJMXAFm-muEHQxEwgKT0oyDaHd5-emCTU9gnOXYjS3h_kVDVpaRus0P_iDbgH8Pg&adnxs_uid=$UID');\
+    document.body.appendChild(i);\
+";
+
+        s.type = 'text/javascript';
+        s.async = true;
+        if (s.textContent) {
+            s.textContent = p;
+        } else {
+            s.text = p;
+        }
+        document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+    
+    (function () {
+        var s = document.createElement('script');
+        var p = "var i = document.createElement('img');\
+    i.setAttribute('alt', '');\
+    i.setAttribute('height', '1');\
+    i.setAttribute('width', '1');\
+    i.setAttribute('style', 'display: none;');\
+    i.setAttribute('src', 'https://tapestry.tapad.com/tapestry/1?ta_partner_did=YSIzF7bNekcUJG-WZRYyTztEYl5cKr7PpVk7-dWchrrJR7VUZ5s8WWAmUo6kCDiJ&ta_partner_id=996&ta_redirect=https://pixel.sojern.com/tapidSync?exchangeProfileId=${IDS:key}');\
+    document.body.appendChild(i);\
+";
+
+        s.type = 'text/javascript';
+        s.async = true;
+        if (s.textContent) {
+            s.textContent = p;
+        } else {
+            s.text = p;
+        }
+        document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+    
+    (function () {
+        var s = document.createElement('script');
+        var p = "var i=document.createElement('img');\
+    i.setAttribute('alt','');\
+    i.setAttribute('height','1');\
+    i.setAttribute('width','1');\
+    i.setAttribute('style','display: none;');\
+    i.setAttribute('src','https://match.adsrvr.org/track/cmf/generic?ttd_puid=WJMXAFm-muEHQxEwgKT0oyDaHd5-emCTU9gnOXYjS3h_kVDVpaRus0P_iDbgH8Pg&ttd_pid=ombl9hp&ttd_tpi=1');\
+    document.body.appendChild(i);\
+";
+
+        s.type = 'text/javascript';
+        s.async = true;
+        if (s.textContent) {
+            s.textContent = p;
+        } else {
+            s.text = p;
+        }
+        document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+    
+    (function () {
+        var s = document.createElement('script');
+        var p = "var i = document.createElement('img');\
+    i.setAttribute('alt', '');\
+    i.setAttribute('height', '1');\
+    i.setAttribute('width', '1');\
+    i.setAttribute('style', 'display: none;');\
+    i.setAttribute('src', 'https://idsync.rlcdn.com/709911.gif?partner_uid=WJMXAFm-muEHQxEwgKT0oyDaHd5-emCTU9gnOXYjS3h_kVDVpaRus0P_iDbgH8Pg');\
+    document.body.appendChild(i);\
+";
+
+        s.type = 'text/javascript';
+        s.async = true;
+        if (s.textContent) {
+            s.textContent = p;
+        } else {
+            s.text = p;
+        }
+        document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+    (function(){var t=document.createElement("img");t.async=!0,t.width=1,t.height=1,t.style.display="none",t.src="https://pippio.com/api/sync?pid=709911";document.body.appendChild(t)})();

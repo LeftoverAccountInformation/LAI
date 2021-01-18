@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Restore Deleted Accounts" -> "nattr::account_aggregation_link_all"
+"adstr::Are you sure you want to delete account nickname?" -> "nattr::are_you_sure_you_want_to_delete_nickname"
+"adstr::You don’t have an eligible Autodeposit account. Please delete this account." -> "nattr::close_accout_info_delete"
+"adstr::Close Account Preview," -> "nattr::access_sign_preview_close_btn"
+"nattr::access_sign_preview_close_btn" -> "lay::fragment_client_lobby.xml"
+"nattr::access_sign_preview_close_btn" -> "lay::fragment_client_lobby_youth.xml"
+"nattr::are_you_sure_you_want_to_delete_nickname" -> "frag::NicknameYouthFragment.smali"
+"nattr::close_accout_info_delete" -> "act::AutoDepositEditRegistrationPresenter.smali"
+"lay::fragment_client_lobby.xml" -> "toplay::fragment_client_lobby.xml"
+"lay::fragment_client_lobby_youth.xml" -> "toplay::fragment_client_lobby_youth.xml"
+}

@@ -1,0 +1,15 @@
+digraph G {
+"adstr::Delete account data" -> "nattr::delete_account_data"
+"adstr::Delete your imo account" -> "nattr::delete_account_title"
+"nattr::delete_account_data" -> "lay::manage_space.xml"
+"nattr::delete_account_title" -> "lay::delete_account_feedback.xml"
+"nattr::delete_account_title" -> "lay::delete_account_view.xml"
+"nattr::delete_account_title" -> "act::AccountPreferencesView.smali"
+"nattr::delete_account_title" -> "act::DeleteAccountFeedback.smali"
+"lay::manage_space.xml" -> "toplay::manage_space.xml"
+"lay::delete_account_feedback.xml" -> "toplay::delete_account_feedback.xml"
+"lay::delete_account_view.xml" -> "toplay::delete_account_view.xml"
+"toplay::manage_space.xml" -> "act::ManageSpaceActivity.smali"
+"toplay::delete_account_feedback.xml" -> "act::DeleteAccountFeedback.smali"
+"toplay::delete_account_view.xml" -> "act::DeleteAccountView.smali"
+}

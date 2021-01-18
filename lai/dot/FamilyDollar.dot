@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account_title"
+"adstr::Delete Your Account" -> "nattr::delete_my_account"
+"nattr::delete_my_account" -> "lay::content_view_account.xml"
+"nattr::delete_account_title" -> "act::ViewAccountActivity_ViewBinding.smali"
+"nattr::delete_account_title" -> "act::ViewAccountActivity.smali"
+"nattr::delete_account_title" -> "act::c$q.smali"
+"nattr::delete_my_account" -> "act::c$q.smali"
+"lay::content_view_account.xml" -> "toplay::activity_view_account.xml"
+"toplay::activity_view_account.xml" -> "act::ViewAccountActivity.smali"
+"toplay::activity_view_account.xml" -> "act::c$l.smali"
+}

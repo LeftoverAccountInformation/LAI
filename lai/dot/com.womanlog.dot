@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Delete account" -> "nattr::account_delete"
+"adstr::Are you sure you want to delete your WomanLog account?" -> "nattr::account_delete_warning_2"
+"nattr::account_delete" -> "act::d$j.smali"
+"nattr::account_delete_warning_2" -> "act::d$j.smali"
+}

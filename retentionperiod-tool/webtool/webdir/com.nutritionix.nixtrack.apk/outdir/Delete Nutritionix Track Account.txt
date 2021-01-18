@@ -1,0 +1,19 @@
+Delete Nutritionix Track Account
+Track Web
+Home
+My Foods
+Preferences
+Daily Goals
+My Coach
+Labs
+Beta
+Help
+Signout
+Download Mobile App
+Delete Nutritionix Track Account
+Please enter your email address below to initiate the delete process of your Nutritionix Track account.
+Please note that there is no way to undo this process once your account is deleted.
+Email
+Email is required
+I understand that there will be no way to recover my account data.
+Submit

@@ -1,0 +1,13 @@
+digraph G {
+"adstr::DeleteAccount" -> "nattr::analytics_name_event_nid_delete_account"
+"adstr::DeleteAccount" -> "nattr::http_logging_category_delete_account"
+"adstr::NIDDeleteAccountEndpoint" -> "nattr::config_nid_delete_url"
+"adstr::NIDDeleteAccountEndpoint_Sandbox" -> "nattr::config_nid_delete_url_sandbox"
+"adstr::MSG_DeleteAccount" -> "nattr::key_msg_deleteaccount"
+"adstr::MSG_DeleteAccount_Title" -> "nattr::key_msg_deleteaccount_title"
+"adstr::MSG_DeleteAccountDeleteCaps" -> "nattr::key_msg_deleteaccountdeletecaps"
+"adstr::PROFILE_DeleteAccountButtonCaps" -> "nattr::key_profile_deleteaccountbuttoncaps"
+"adstr::DeleteAccount" -> "lay::fragment_logged_in.xml"
+"nattr::key_profile_deleteaccountbuttoncaps" -> "lay::fragment_logged_in.xml"
+"lay::fragment_logged_in.xml" -> "toplay::fragment_logged_in.xml"
+}

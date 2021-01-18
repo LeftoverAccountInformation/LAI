@@ -1,0 +1,16 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::To delete your account, enter your number" -> "nattr::delete_account_heading_2"
+"adstr::Delete your Hike account." -> "nattr::delete_account_msg"
+"adstr::DELETE MY ACCOUNT" -> "nattr::delete_my_account"
+"adstr::The person who invited you has deleted their account." -> "nattr::link_share_error_invitee_account_deleted"
+"adstr::This chat has been disbled since user has deleted the account" -> "nattr::sys_msg_chat_disable"
+"nattr::delete_account" -> "lay::delete_account_confirmation.xml"
+"nattr::delete_account_heading_2" -> "lay::delete_account_confirmation.xml"
+"nattr::delete_my_account" -> "lay::delete_account_confirmation.xml"
+"nattr::delete_account" -> "act::DeleteAccount.smali"
+"nattr::link_share_error_invitee_account_deleted" -> "act::HomeActivity$26.smali"
+"nattr::sys_msg_chat_disable" -> "act::ChangeNumberHandler.smali"
+"lay::delete_account_confirmation.xml" -> "toplay::delete_account_confirmation.xml"
+"toplay::delete_account_confirmation.xml" -> "act::DeleteAccount.smali"
+}

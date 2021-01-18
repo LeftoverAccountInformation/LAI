@@ -1,0 +1,10 @@
+digraph G {
+"adstr::Delete your account and all of your data." -> "nattr::account_settings_delete_account_details"
+"adstr::Delete Account" -> "nattr::account_settings_delete_account_title"
+"adstr::Are you sure you want to delete your account? This action cannot be undone." -> "nattr::account_settings_dialog_delete_account_message"
+"nattr::account_settings_delete_account_details" -> "lay::item_settings_action_delete_account.xml"
+"nattr::account_settings_delete_account_title" -> "lay::item_settings_action_delete_account.xml"
+"nattr::account_settings_dialog_delete_account_message" -> "act::a.smali"
+"lay::item_settings_action_delete_account.xml" -> "toplay::view_settings_account.xml"
+"toplay::view_settings_account.xml" -> "act::AccountSettingsView.smali"
+}

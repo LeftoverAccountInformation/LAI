@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/************************ FAQ toggling */
+
+
+
+.our-centers a.toggle {color:#eb6f24;}
+.become-donor a.toggle {color:#ac0079;}
+.current-donor a.toggle {color:#2181bc;}
+
+
+a.toggle, a.toggleautoclose {
+	font-size:18px;
+	margin:15px 0 5px 0;
+	cursor:pointer;
+	font-size:20px;
+	text-decoration:none;
+	display:block;
+}
+a.toggle:hover, a.toggleautoclose:hover {
+	color:#0C018E;
+}
+
+.our-centers a.toggle, .our-centers a.toggleautoclose {margin:5px 0 5px 0;}
+.our-centers .togglebox .content {
+	padding:  0;
+}
+.our-centers .content h3 {margin:0;}
+
+section a.toggle {padding:0}
+
+.togglebox {
+	/* Rounder Corner 
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 7px;*/
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 600px;
+	clear: both;
+	margin-bottom:10px;
+}
+.togglebox .content {
+	padding: 10px 0;
+}
+
+.faqs section,
+.eligibility section {	min-height:800px;
+	height:auto !important;
+	height:800px;}
+	

@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::bc_user_delete_account"
+"adstr::Are you sure you want to delete the user account?" -> "nattr::bc_user_delete_user_description"
+"nattr::bc_user_delete_account" -> "act::e$k.smali"
+"nattr::bc_user_delete_user_description" -> "act::e$k.smali"
+}

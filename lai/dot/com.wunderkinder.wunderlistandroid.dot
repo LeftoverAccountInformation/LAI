@@ -1,0 +1,10 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::settings_account_delete_account"
+"adstr::If your data are no longer required for the aforementioned purposes, we will delete them. Completed tasks will remain stored and will be marked Completed in the database. If you delete your account, we will also delete all data completely from your account (lists, tasks and shared lists). Data you have entered in lists belonging to third parties will remain in existence as these are part of third party accounts. If data has to be retained for statutory reasons, these will be blocked and will then no longer be available for any further use." -> "nattr::wl_privacy_deleting"
+"nattr::settings_account_delete_account" -> "lay::wl_preference_accounts_delete.xml"
+"nattr::settings_account_delete_account" -> "lay::wl_delete_account.xml"
+"nattr::wl_privacy_deleting" -> "lay::wl_settings_privacy_policy_layout.xml"
+"lay::wl_preference_accounts_delete.xml" -> "toplay::wl_preference_accounts_delete.xml"
+"lay::wl_delete_account.xml" -> "toplay::wl_delete_account.xml"
+"lay::wl_settings_privacy_policy_layout.xml" -> "toplay::wl_settings_privacy_policy_layout.xml"
+}

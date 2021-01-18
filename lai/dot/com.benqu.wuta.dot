@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Are you sure that you want to delete the current account?" -> "nattr::login_user_destroy_account_alert_title"
+"nattr::login_user_destroy_account_alert_title" -> "act::UserInfoCtrller.smali"
+}

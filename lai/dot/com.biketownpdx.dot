@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Delete account" -> "nattr::delete_account"
+"adstr::You’re about to delete your account permanently.lt;br>lt;br>Enter your password to confirm." -> "nattr::youre_about_to_delete_your_account"
+"nattr::delete_account" -> "lay::account_privacy_fragment.xml"
+"nattr::youre_about_to_delete_your_account" -> "act::AccountPrivacyFragment.smali"
+"lay::account_privacy_fragment.xml" -> "toplay::account_privacy_fragment.xml"
+"toplay::account_privacy_fragment.xml" -> "act::AccountPrivacyFragment.smali"
+}

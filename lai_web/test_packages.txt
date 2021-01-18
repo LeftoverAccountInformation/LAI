@@ -1,0 +1,4 @@
+adidas.apk
+adobescan.apk
+air.thix.sciencesense.beaker.apk
+aliexpress.apk

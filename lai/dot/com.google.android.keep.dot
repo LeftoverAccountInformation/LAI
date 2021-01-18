@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Widget Cancel Account Select" -> "nattr::ga_action_widget_cancel_account_select"
+"nattr::ga_action_widget_cancel_account_select" -> "act::WidgetConfigureActivity.smali"
+}

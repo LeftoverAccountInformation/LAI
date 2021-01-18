@@ -1,0 +1,16 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::activity_label_delete_account"
+"adstr::Delete Account" -> "nattr::delete_account_ownership_delete_button"
+"adstr::Delete Account" -> "nattr::delete_account_ownership_title"
+"adstr::Delete Account" -> "nattr::dialog_terms_updated_decline_delete"
+"adstr::If you delete your account, all your MeetMe photos, posts, and friendships will be deleted permanently." -> "nattr::delete_account_message"
+"adstr::Delete Account?" -> "nattr::delete_account_title"
+"adstr::Delete account" -> "nattr::pref_account_delete"
+"nattr::delete_account_message" -> "lay::delete_account.xml"
+"nattr::delete_account_title" -> "lay::delete_account.xml"
+"nattr::dialog_terms_updated_decline_delete" -> "frag::TermsDialogFragment.smali"
+"nattr::delete_account_ownership_delete_button" -> "act::DeleteAccountActivity.smali"
+"nattr::delete_account_ownership_title" -> "act::DeleteAccountActivity.smali"
+"lay::delete_account.xml" -> "toplay::delete_account.xml"
+"toplay::delete_account.xml" -> "act::DeleteAccountActivity.smali"
+}

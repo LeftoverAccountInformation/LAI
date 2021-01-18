@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Linking this device to an existing account will not delete current account" -> "nattr::linking_this_device_to_an_existing_account_will_not_delete_current_account"
+"nattr::linking_this_device_to_an_existing_account_will_not_delete_current_account" -> "lay::account_transfer_new_device.xml"
+"lay::account_transfer_new_device.xml" -> "toplay::account_transfer_new_device.xml"
+}

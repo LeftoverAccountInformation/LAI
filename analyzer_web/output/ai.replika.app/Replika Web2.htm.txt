@@ -1,0 +1,26 @@
+You need to enable JavaScript to run this app.
+
+Navigated to intro page
+
+Log out
+
+# Delete Account
+
+Hi, app,  
+We’re sorry to hear you’d like to delete your account.  
+  
+If you’re concerned about privacy of your information, we’ve clarified some of
+the issues that people have asked us about on [our Privacy
+page](https://replika.ai/legal/privacy).  
+  
+If you have other concerns or questions, please reach out to us at
+[my@replika.ai](mailto:my@replika.ai)
+
+## Why are you deleting your account?
+
+Select...
+
+NextReturn to chat
+
+https://my.replika.ai/
+

@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete account" -> "nattr::delete_account"
+"nattr::delete_account" -> "lay::fragment_gdpr_user_warning.xml"
+"nattr::delete_account" -> "lay::fragment_account_settings_list_fragment.xml"
+"nattr::delete_account" -> "frag::AboutFragment.smali"
+"lay::fragment_gdpr_user_warning.xml" -> "toplay::fragment_gdpr_user_warning.xml"
+"lay::fragment_account_settings_list_fragment.xml" -> "toplay::fragment_account_settings_list_fragment.xml"
+"toplay::fragment_gdpr_user_warning.xml" -> "frag::GdprUserWarningFragment.smali"
+"toplay::fragment_account_settings_list_fragment.xml" -> "frag::AccountSettingsV2Fragment.smali"
+"frag::GdprUserWarningFragment.smali" -> "act::GdprFragmentController.smali"
+"frag::AccountSettingsV2Fragment.smali" -> "act::AccountSettingsActivity.smali"
+}

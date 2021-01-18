@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Why do you want to delete your Waplog account?" -> "nattr::delete_profile_content"
+"nattr::delete_profile_content" -> "lay::dialog_for_delete_profile_feedback.xml"
+"lay::dialog_for_delete_profile_feedback.xml" -> "toplay::dialog_for_delete_profile_feedback.xml"
+"toplay::dialog_for_delete_profile_feedback.xml" -> "act::DeleteProfileFeedBackDialog.smali"
+}

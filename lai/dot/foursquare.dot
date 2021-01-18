@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::preference_delete_account"
+"nattr::preference_delete_account" -> "frag::SettingsFragment.smali"
+"frag::SettingsFragment.smali" -> "act::PreferenceActivity.smali"
+}

@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::Delete Account" -> "nattr::delete_prompt_delete_account"
+"adstr::A Listener Advocate will email you at %s with instructions for how to cancel your subscription and delete your account." -> "nattr::delete_account_submit_confirmation_message"
+"adstr::Enter a contact email below. A Pandora Listener Advocate will soon email you instructions on how to cancel your subscription first, then delete your account." -> "nattr::delete_validate_email_body"
+"nattr::delete_account" -> "lay::account_settings.xml"
+"nattr::delete_prompt_delete_account" -> "frag::AccountSettingsFragment.smali"
+"nattr::delete_validate_email_body" -> "frag::AccountSettingsFragment.smali"
+"nattr::delete_account_submit_confirmation_message" -> "act::AccountSettingsFragment$3.smali"
+"lay::account_settings.xml" -> "toplay::account_settings.xml"
+"toplay::account_settings.xml" -> "frag::AccountSettingsFragment.smali"
+}

@@ -1,0 +1,13 @@
+digraph G {
+"adstr::Delete account" -> "nattr::settings_account_delete_button_label"
+"adstr::Want to delete your account?" -> "nattr::settings_account_delete_label"
+"nattr::settings_account_delete_button_label" -> "lay::frag_settings_delete_account.xml"
+"nattr::settings_account_delete_label" -> "lay::settings_footer_button.xml"
+"nattr::settings_account_delete_button_label" -> "act::ChangeEmailDecorator.smali"
+"lay::frag_settings_delete_account.xml" -> "toplay::frag_settings_delete_account.xml"
+"lay::settings_footer_button.xml" -> "toplay::settings_footer_button.xml"
+"toplay::frag_settings_delete_account.xml" -> "frag::SettingsDeleteAccountFragment.smali"
+"toplay::settings_footer_button.xml" -> "act::EmailPasswordFooterHolder.smali"
+"toplay::settings_footer_button.xml" -> "act::ChangeEmailDecorator.smali"
+"frag::SettingsDeleteAccountFragment.smali" -> "act::ChangeEmailDecorator.smali"
+}

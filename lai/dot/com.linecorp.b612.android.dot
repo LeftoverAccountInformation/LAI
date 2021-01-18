@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete account" -> "nattr::settings_account_delete"
+"adstr::Delete your B612 account?" -> "nattr::settings_account_delete_title"
+"nattr::settings_account_delete" -> "lay::delete_account_activity.xml"
+"nattr::settings_account_delete" -> "lay::account_settings_activity.xml"
+"nattr::settings_account_delete_title" -> "lay::delete_account_activity.xml"
+"nattr::settings_account_delete" -> "act::DeleteAccountActivity.smali"
+"lay::delete_account_activity.xml" -> "toplay::delete_account_activity.xml"
+"lay::account_settings_activity.xml" -> "toplay::account_settings_activity.xml"
+"toplay::delete_account_activity.xml" -> "act::DeleteAccountActivity.smali"
+"toplay::account_settings_activity.xml" -> "act::AccountSettingsActivity.smali"
+}

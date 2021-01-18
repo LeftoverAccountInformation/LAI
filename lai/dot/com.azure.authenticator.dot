@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Delete account" -> "nattr::account_remove_label"
+"adstr::Go to Settings > Manage Device Registration to unregister and delete this account." -> "nattr::leave_wpj_dialog_message"
+"nattr::account_remove_label" -> "lay::account_list_row_edit_mode.xml"
+"nattr::leave_wpj_dialog_message" -> "act::MainActivity.smali"
+"lay::account_list_row_edit_mode.xml" -> "toplay::account_list_row.xml"
+"toplay::account_list_row.xml" -> "act::AccountListArrayAdapter.smali"
+}

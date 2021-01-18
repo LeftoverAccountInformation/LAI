@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Delete account" -> "nattr::delete_account_action"
+"nattr::delete_account_action" -> "act::ActivitySettingsMain.smali"
+}

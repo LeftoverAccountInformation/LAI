@@ -1,0 +1,34 @@
+<svg width="400" height="712" viewBox="0 0 400 712" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Generic Android</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1030 1081)">
+<g id="Generic Android">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(-1030 -1081)" fill="#DDDDDD"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="translate(-1026 -1077.22)" fill="#F4F4F4"/>
+</g>
+<g id="Group">
+<g id="Rectangle 2">
+<use xlink:href="#path2_fill" transform="translate(-1009 -1017)" fill="#DDDDDD"/>
+</g>
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Rectangle 2">
+<use xlink:href="#path3_fill" transform="translate(-1007 -1015)" fill="#DDDDDD"/>
+</g>
+</mask>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path4_fill" transform="translate(-901 -1056)" fill="#DDDDDD"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 45C 0 20.1472 20.1472 0 45 0L 355 0C 379.853 0 400 20.1472 400 45L 400 667C 400 691.853 379.853 712 355 712L 45 712C 20.1472 712 0 691.853 0 667L 0 45Z"/>
+<path id="path1_fill" d="M 0 42C 0 18.804 18.804 0 42 0L 350 0C 373.196 0 392 18.804 392 42L 392 662.446C 392 685.642 373.196 704.446 350 704.446L 42 704.446C 18.804 704.446 0 685.642 0 662.446L 0 42Z"/>
+<path id="path2_fill" d="M 0 0L 358 0L 358 585L 0 585L 0 0Z"/>
+<path id="path3_fill" d="M 0 0L 354 0L 354 581L 0 581L 0 0Z"/>
+<path id="path4_fill" d="M 0 3.51279C 0 1.57273 1.57273 0 3.51279 0L 138.487 0C 140.427 0 142 1.57273 142 3.51279L 142 3.51279C 142 5.45285 140.427 7.02558 138.487 7.02558L 3.51279 7.02558C 1.57273 7.02558 0 5.45285 0 3.51279L 0 3.51279Z"/>
+</defs>
+</svg>

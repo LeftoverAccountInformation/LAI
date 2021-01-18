@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Delete My Account" -> "nattr::delete_account"
+"nattr::delete_account" -> "frag::DeleteAccountWebViewFragment.smali"
+"nattr::delete_account" -> "act::ZendeskMenuFragment$SectionViewHolder.smali"
+}

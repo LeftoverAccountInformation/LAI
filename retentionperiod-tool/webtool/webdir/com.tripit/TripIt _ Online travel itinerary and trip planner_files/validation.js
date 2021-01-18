@@ -1,0 +1,1 @@
+!function(){"use strict";window.TRIPIT.util.Validation=function(){return this.isEmailValid=function(i){return i&&i.match(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)},this.isPasswordValid=function(i){return 7<i.length&&i.length<65&&!this.isEmailValid(i)},this}}(jQuery);

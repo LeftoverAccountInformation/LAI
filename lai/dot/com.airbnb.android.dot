@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Cancel account" -> "nattr::cancel_account"
+"adstr::Cancel your account?" -> "nattr::community_commitment_cancellation_screen_title_existing_user"
+}

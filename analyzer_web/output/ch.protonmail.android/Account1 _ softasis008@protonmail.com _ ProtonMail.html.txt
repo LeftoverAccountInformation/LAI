@@ -1,0 +1,381 @@
+#### Delete account
+
+**WARNING: DELETION IS PERMANENT**  
+If you wish to delete this account in order to combine it with another one, do
+NOT delete it. You need to follow [this
+procedure](https://protonmail.com/support/knowledge-base/combine-accounts/)
+instead.
+
+**WARNING: THIS ALSO DELETES ALL CONNECTED SERVICES (ex: _ProtonVPN_ )**
+
+Please provide an email address in case we need to contact you (optional):
+
+Enter your login password to confirm your identity:
+
+Cancel Delete
+
+[](https://mail.protonmail.com/inbox?welcome=true)
+
+__ ____ ____
+
+  * __ Cyber Monday
+  * [ __ Upgrade ](https://mail.protonmail.com/dashboard)
+  * [ __ Settings ](https://mail.protonmail.com/account)
+  * [ __ Contacts ](https://mail.protonmail.com/contacts)
+  * [ ____ Report bug ](https://mail.protonmail.com/#) [ __ I have a question ](https://protonmail.com/support)
+
+__ Report bug
+
+  * [ ____ softasis008 ](https://mail.protonmail.com/#) **softasis008** softasis008@protonmail.com
+
+__ Tutorial [ __ Help & answers ](https://protonmail.com/support) [ __
+ProtonMail Shop ](https://shop.protonmail.com/)
+[Logout](https://mail.protonmail.com/login)
+[3.16.4](https://protonmail.com/blog/protonmail-v3-16-release-notes/ "Fri, 13
+Sep 2019 08:40:51 GMT")
+
+__[ ![ProtonMail](./Account1 _ softasis008@protonmail.com _
+ProtonMail_files/logo.png) ](https://mail.protonmail.com/inbox "ProtonMail ~
+back to inbox")
+
+softasis008 **softasis008@protonmail.com**
+
+__ Back to mail
+
+  * [ __ Dashboard ](https://mail.protonmail.com/dashboard)
+  * [ __ Account ](https://mail.protonmail.com/account)
+  * [ __ Folders / Labels ](https://mail.protonmail.com/labels)
+  * [ __ Filters ](https://mail.protonmail.com/filters)
+  * [ __ Auto-Reply ](https://mail.protonmail.com/autoresponder)
+  * [ __ Security ](https://mail.protonmail.com/security)
+  * [ __ Appearance ](https://mail.protonmail.com/appearance)
+  * [ __ Addresses / Users ](https://mail.protonmail.com/members)
+  * [ __ Domains ](https://mail.protonmail.com/domains)
+  * [ __ IMAP/SMTP ](https://mail.protonmail.com/bridge)
+  * [ __ pm.me ](https://mail.protonmail.com/pmme)
+  * [ __ Payments ](https://mail.protonmail.com/payments)
+  * [ __ Keys ](https://mail.protonmail.com/keys)
+  * [ __ ProtonVPN ](https://mail.protonmail.com/vpn)
+  * __ Donate
+
+[3.16.4](https://protonmail.com/blog/protonmail-v3-16-release-notes/ "Fri, 13
+Sep 2019 08:40:51 GMT")
+
+## Identity
+
+Select an address Address
+
+softasis008@protonmail.com __
+
+Display name [ __](https://protonmail.com/support/knowledge-base/display-name-
+and-signature/)
+
+Signature
+
+Drop an image here to insert
+
+__ __ __
+
+__ __
+
+______
+
+__ __ __
+
+__
+
+  * __ Left to Right
+  * __ Right to Left
+  *   * __ Normal
+  * __ Plain Text
+  *   * __ Sign message
+  *   * __ Attach Public Key
+  *   * __ Request Read Receipt
+
+14 __
+
+  * 10
+  * 12
+  * 14
+  * 16
+  * 18
+  * 20
+  * 22
+  * 24
+  * 26
+
+Arial __
+
+  * Georgia
+  * Arial
+  * Helvetica
+  * Monospace
+  * Tahoma
+  * Verdana
+  * Times New Roman
+  * Trebuchet MS
+
+__ __
+
+### Text color
+
+### Background color
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+### Text color
+
+### Background color
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+  * __
+
+__ __ __
+
+__
+
+
+
+Save [Change address
+priority](https://mail.protonmail.com/#addressesPrioritySection)
+
+ProtonMail Signature
+
+Sent with [ProtonMail](https://protonmail.com/) Secure Email.
+
+A [paid plan](https://mail.protonmail.com/dashboard) is required to turn off
+the ProtonMail signature. Paid plan revenue allows us to continue supporting
+free accounts.
+
+## Notifications
+
+Reset/notification email
+
+Also used to reset a forgotten password.
+
+
+
+Save
+
+Allow password reset
+
+Enabled
+
+Disabled
+
+
+
+Daily email notifications __
+
+Enabled
+
+Disabled
+
+[Learn more](https://protonmail.com/blog/notification-emails/)
+
+
+
+Desktop notifications
+
+Desktop notifications are currently **enabled**.  
+[Test notification](https://mail.protonmail.com/#)
+
+Desktop notifications are currently **disabled**. To enable them, you need to
+go to your browser settings.
+
+To enable desktop notifications, [click here](https://mail.protonmail.com/#).
+
+[What is this?](https://protonmail.com/support/knowledge-base/desktop-
+notifications/)
+
+## Login password
+
+Change login password
+
+Switch to one-password mode [Learn more](https://protonmail.com/support
+/knowledge-base/single-password/)
+
+## Mailbox password
+
+Change mailbox password
+
+## Password
+
+Change password
+
+Switch to two-password mode [Learn more](https://protonmail.com/support
+/knowledge-base/single-password/)
+
+## Language
+
+Choose your default language.
+ČeštinaDeutschEnglishEspañolFrançaisHrvatskiItaliano日本語NederlandsPolskiPortuguês,
+brasileiroPусскийRomânăTürkçeУкраїнська简体中文繁體中文 __
+
+## Automatically save contacts
+
+Automatically save contacts
+
+Enabled
+
+Disabled
+
+[Learn more](https://protonmail.com/support/knowledge-base/autosave-contact-
+list)
+
+## Email Content
+
+Load remote content
+
+Auto
+
+Manual
+
+[Learn more](https://protonmail.com/support/knowledge-base/images-by-default/)
+
+Load embedded images
+
+Auto
+
+Manual
+
+Request link confirmation
+
+Disabled
+
+Enabled
+
+## Keyboard Shortcuts
+
+Keyboard Shortcuts
+
+Enabled
+
+Disabled
+
+
+
+View Keyboard Shortcuts
+
+## Address Priority
+
+Add additional email addresses to your account such as
+username2@protonmail.com. To enable this feature, [upgrade to ProtonMail
+Plus](https://mail.protonmail.com/dashboard).
+
+New Addresses can be added on
+[Addresses/Users](https://mail.protonmail.com/members)
+
+  * softasis008@protonmail.com
+
+Default
+
+__ Your subscription is managed by Mozilla. Please [click
+here](https://support.mozilla.org/en-US/kb/protonvpn) to contact Mozilla
+support.
+
+## Email Subscriptions
+
+Major Announcements (2-3 per year)
+
+Major New Features (3-4 per year)
+
+Proton Newsletter (5-6 per year)
+
+Proton Beta (~ 10-12 per year)
+
+## Search
+
+Do not require exact match [Learn more](https://protonmail.com/support
+/knowledge-base/search/)
+
+__ Your subscription is managed by Mozilla. Please [click
+here](https://support.mozilla.org/en-US/kb/protonvpn) to contact Mozilla
+support.
+
+## Delete Account
+
+Delete your account
+
+Command
+
+Type 1 or more characters for results.
+
+ProtonMail requires Javascript. Enable Javascript and reload this page to
+continue.
+

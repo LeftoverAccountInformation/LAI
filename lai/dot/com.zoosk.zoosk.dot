@@ -1,0 +1,4 @@
+digraph G {
+"adstr::You must cancel your subscription before you can deactivate your account." -> "nattr::deactivate_account_explanation"
+"nattr::deactivate_account_explanation" -> "act::AccountStatusSettingsFragment.smali"
+}

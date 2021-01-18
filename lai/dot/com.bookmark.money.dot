@@ -1,0 +1,3 @@
+digraph G {
+"adstr::If you leave this wallet, you could either keep its data on your account, or just delete all its data from your account." -> "nattr::share_wallet_leave_notice"
+}

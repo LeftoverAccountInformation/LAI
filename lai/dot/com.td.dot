@@ -1,0 +1,8 @@
+digraph G {
+"adstr::If you want to close your Verified.Me account, you can do so through the Verified.Me app." -> "nattr::digital_id_unenrollment_info"
+"adstr::Close Verified.Me account?" -> "nattr::digital_id_unlink_confirmation_dialog_header"
+"nattr::digital_id_unenrollment_info" -> "lay::activity_digital_id_profile.xml"
+"nattr::digital_id_unlink_confirmation_dialog_header" -> "act::DigitalIdProfileActivity$b.smali"
+"lay::activity_digital_id_profile.xml" -> "toplay::activity_digital_id_profile.xml"
+"toplay::activity_digital_id_profile.xml" -> "act::DigitalIdProfileActivity.smali"
+}

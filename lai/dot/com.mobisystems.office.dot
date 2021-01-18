@@ -1,0 +1,18 @@
+digraph G {
+"adstr::Delete account?" -> "nattr::delete_account_confirmation"
+"nattr::delete_account_confirmation" -> "act::ac$l.smali"
+"nattr::delete_account_confirmation" -> "act::a$e.smali"
+"nattr::delete_account_confirmation" -> "act::a$d.smali"
+"nattr::delete_account_confirmation" -> "act::a$j.smali"
+"nattr::delete_account_confirmation" -> "act::t$j.smali"
+"nattr::delete_account_confirmation" -> "act::y$i.smali"
+"nattr::delete_account_confirmation" -> "act::ab$i.smali"
+"nattr::delete_account_confirmation" -> "act::a$g.smali"
+"nattr::delete_account_confirmation" -> "act::a$e.smali"
+"nattr::delete_account_confirmation" -> "act::a$l.smali"
+"nattr::delete_account_confirmation" -> "act::a$d.smali"
+"nattr::delete_account_confirmation" -> "act::a$m.smali"
+"nattr::delete_account_confirmation" -> "act::a$g.smali"
+"nattr::delete_account_confirmation" -> "act::a$d.smali"
+"nattr::delete_account_confirmation" -> "act::f$j.smali"
+}

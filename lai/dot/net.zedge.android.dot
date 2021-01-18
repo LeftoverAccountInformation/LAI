@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete account" -> "nattr::delete_account"
+"adstr::Are you sure you want to delete your account? This will permanently delete all content and information associated with the account." -> "nattr::delete_account_warning"
+"adstr::A password is required to delete your account. Do you want to create one?" -> "nattr::delete_account_without_password_message"
+"nattr::delete_account" -> "lay::delete_account_dialog_fragment.xml"
+"nattr::delete_account" -> "frag::DeleteAccountDialogFragment.smali"
+"nattr::delete_account" -> "frag::AccountDetailFragment.smali"
+"nattr::delete_account_warning" -> "frag::DeleteAccountDialogFragment.smali"
+"nattr::delete_account_without_password_message" -> "frag::AccountDetailFragment.smali"
+"lay::delete_account_dialog_fragment.xml" -> "toplay::delete_account_dialog_fragment.xml"
+"toplay::delete_account_dialog_fragment.xml" -> "frag::DeleteAccountDialogFragment.smali"
+}

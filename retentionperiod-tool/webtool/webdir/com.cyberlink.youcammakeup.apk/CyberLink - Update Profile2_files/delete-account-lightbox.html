@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0080)https://membership.cyberlink.com/prog/member/service/delete-account-lightbox.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Insert title here</title>
+
+
+
+
+
+  
+
+<link href="./sys_enu.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+
+<link href="./member_enu.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="./jquery-1.6.1.min.js"></script>
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {	
+	$( "#password" ).keydown(function() {
+		$(".delete-account-password-hint").css("visibility","hidden");
+	});
+});
+var isClickingDeleteFn = true;
+function deleteAccount(){
+	isClickingDeleteFn = false;
+	if(!isClickingDeleteFn){
+		isClickingDeleteFn = true;
+		$.ajax({
+			type: "POST",
+			url: "delete-account-lightbox.jsp",
+			data: { action: "delete", password: $("#password").val() },
+			async: true,
+			dataType: "json",
+			success: function(res){			
+				if(res.status=="FAIL"){
+					$(".delete-account-password-hint").css("visibility","visible");
+					if(res.error){
+						console.log(res.error);
+					}
+				}else if(res.status=="SUCCESS"){
+					$("#deleteCheck").hide();
+					$("#deleteConfirmation").show();
+					parent.resizeLightbox(550,150);
+				}	
+				isClickingDeleteFn = false;
+			}
+		});
+	}
+}	
+</script>
+</head>
+<body>
+<div style="margin: 20px 20px;">
+	<div id="deleteCheck">
+					<form onsubmit="return false;">
+						<div>
+					        <span class="ng-scope">Account:</span>
+					        <span style="color:#31a4f9">softasis008@yahoo.com</span>
+					    </div>
+					    <div style="margin-top: 20px">Enter your password for the last time</div>
+					    <input type="password" id="password" class="delete-account-password" placeholder="Password" required="">
+					    <div class="delete-account-password-hint">Wrong password.<a target="_blank" href="https://membership.cyberlink.com/prog/member/forgot-password.jsp">Forget your password?</a></div>
+						<div style="text-align: center; padding-top: 20px;">
+							<button class="btn-primary btn" onclick="deleteAccount();">Account Removal</button>
+					        <button class="btn-gray btn" onclick="parent.closeLightbox();">Cancel</button>
+					    </div>
+				    </form>	
+				</div>
+			    <div id="deleteConfirmation" style="display:none">
+			    	A confirmation mail has been sent to your mailbox. Check the mail to complete the account deletion process.<div style="text-align: center; padding-top: 20px;">
+						<button class="btn-primary btn" onclick="parent.closeLightbox();">Ok</button>
+				    </div>	
+			    </div>							
+			</div>
+
+</body></html>

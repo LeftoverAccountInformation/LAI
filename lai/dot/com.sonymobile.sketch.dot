@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Do you want to export all your sketches and data before you delete the account?" -> "nattr::settings_account_dialog_delete_text_3"
+"adstr::Delete account" -> "nattr::settings_account_dialog_delete_title"
+"adstr::Delete account" -> "nattr::settings_manage_account_delete"
+"adstr::You cannot delete your account until the link has been generated" -> "nattr::settings_account_dialog_export_delete_text"
+"nattr::settings_account_dialog_delete_text_4" -> "lay::account_delete_confirmation_dialog.xml"
+"nattr::settings_account_dialog_delete_title" -> "frag::AccountDeleteErrorDialog.smali"
+"nattr::settings_account_dialog_delete_title" -> "frag::AccountDeleteConfirmationDialog.smali"
+"nattr::settings_account_dialog_delete_title" -> "frag::AccountDeleteDialog.smali"
+"lay::account_delete_confirmation_dialog.xml" -> "toplay::account_delete_confirmation_dialog.xml"
+"toplay::account_delete_confirmation_dialog.xml" -> "frag::AccountDeleteConfirmationDialog.smali"
+}

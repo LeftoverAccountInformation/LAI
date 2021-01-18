@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::STR_CLOUD_ACCOUNT_DELETE"
+"adstr::Delete Account" -> "nattr::STR_GDOCS_DELETE_ACCOUNT"
+"adstr::Are you sure you want to delete this account?" -> "nattr::STR_CLOUD_ACCOUNT_MSG"
+"adstr::Are you sure you want to delete all selected desktop accounts?" -> "nattr::STR_DELETE_DESKTOP_CONFIRMATION_MESSAGE"
+"nattr::STR_CLOUD_ACCOUNT_DELETE" -> "act::TabbedLauncherActivity$b.smali"
+"nattr::STR_CLOUD_ACCOUNT_MSG" -> "act::TabbedLauncherActivity$b.smali"
+"nattr::STR_DELETE_DESKTOP_CONFIRMATION_MESSAGE" -> "act::TabbedLauncherActivity$f$2.smali"
+}

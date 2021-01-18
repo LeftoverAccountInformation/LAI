@@ -1,0 +1,7 @@
+digraph G {
+"adstr::Close my account" -> "nattr::button_close_account"
+"adstr::Close account" -> "nattr::title_close_account"
+"nattr::button_close_account" -> "lay::activity_close_account.xml"
+"lay::activity_close_account.xml" -> "toplay::activity_close_account.xml"
+"toplay::activity_close_account.xml" -> "act::DeclineTripValetEligibleActivity.smali"
+}

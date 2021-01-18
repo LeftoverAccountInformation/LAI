@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::fragment_settings_account_button_delete"
+"adstr::Delete Account" -> "nattr::fragment_settings_account_dialog_title"
+"nattr::fragment_settings_account_button_delete" -> "lay::fragment_settings_account.xml"
+"nattr::fragment_settings_account_dialog_title" -> "frag::AccountSettingsFragment.smali"
+"nattr::fragment_settings_account_dialog_message" -> "frag::AccountSettingsFragment.smali"
+"lay::fragment_settings_account.xml" -> "toplay::fragment_settings_account.xml"
+"toplay::fragment_settings_account.xml" -> "frag::AccountSettingsFragment.smali"
+}

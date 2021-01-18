@@ -1,0 +1,6 @@
+
+		
+		var response =  {"im_off" : 0, "events" : [], "num_drafts" : 0, "server_seqid" : 0, "num_spam_unread" : 0, "people" : [], "num_spam" : 0, "server_gmt" : 1569263081, "num_unread" : 0};
+		parent.InstantEvents.openConnection_cb(response, "");
+		
+	

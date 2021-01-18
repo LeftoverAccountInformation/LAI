@@ -1,0 +1,7 @@
+digraph G {
+"adstr::- In order to delete your Kakao Account information including the list of linked services, you must delete your Kakao Account." -> "nattr::desc_for_delete_account_about_4"
+"adstr::Delete Kakao Account" -> "nattr::text_for_unregister_button"
+"nattr::text_for_unregister_button" -> "lay::kakao_account_delete_result.xml"
+"lay::kakao_account_delete_result.xml" -> "toplay::kakao_account_delete_result.xml"
+"toplay::kakao_account_delete_result.xml" -> "act::DeleteAccountResultActivity.smali"
+}

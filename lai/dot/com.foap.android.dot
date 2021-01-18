@@ -1,0 +1,14 @@
+digraph G {
+"adstr::If you want to delete the account anyway, please indicate the reason for deletion:" -> "nattr::delete_account_info2"
+"adstr::Delete Account" -> "nattr::settings_delete_account"
+"adstr::We are sorry you want to close your account. Remember that if you have any issues with Foap, you can always contact our Customer Service team. They will do their best to help you!" -> "nattr::delete_account_info"
+"nattr::delete_account_info2" -> "lay::fragment_delete_account.xml"
+"nattr::settings_delete_account" -> "lay::fragment_delete_account.xml"
+"nattr::delete_account_info" -> "lay::fragment_delete_account.xml"
+"nattr::settings_delete_account" -> "act::b.smali"
+"nattr::settings_delete_account" -> "act::b.smali"
+"nattr::settings_delete_account" -> "act::ar.smali"
+"nattr::settings_delete_account" -> "act::DeleteAccountActivity.smali"
+"lay::fragment_delete_account.xml" -> "toplay::fragment_delete_account.xml"
+"toplay::fragment_delete_account.xml" -> "act::b.smali"
+}

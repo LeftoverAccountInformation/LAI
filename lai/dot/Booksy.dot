@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Delete account" -> "nattr::profile_delete_account"
+"adstr::Delete my account" -> "nattr::profile_delete_my_account"
+}

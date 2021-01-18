@@ -1,0 +1,11 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::Delete account failed" -> "nattr::delete_account_failed"
+"adstr::Are you sure? This will permanently delete your account and data associated with %s." -> "nattr::delete_account_message"
+"adstr::Delete my account" -> "nattr::delete_my_account"
+"nattr::delete_account" -> "lay::fragment_settings.xml"
+"lay::fragment_settings.xml" -> "toplay::fragment_settings.xml"
+"toplay::fragment_settings.xml" -> "frag::SettingsFragment.smali"
+"frag::SettingsFragment.smali" -> "act::IntentFilterActivity.smali"
+"frag::SettingsFragment.smali" -> "act::FragmentHolderActivity.smali"
+}

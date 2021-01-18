@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::activity_backup_support_delete_account"
+"adstr::Delete Account" -> "nattr::button_backup_delete"
+"adstr::Delete Account" -> "nattr::dialog_delete_account"
+"nattr::button_backup_delete" -> "lay::activity_partner_settings.xml"
+"nattr::button_backup_delete" -> "lay::activity_backup_account_delete.xml"
+"lay::activity_partner_settings.xml" -> "toplay::activity_partner_settings.xml"
+"lay::activity_backup_account_delete.xml" -> "toplay::activity_backup_account_delete.xml"
+}

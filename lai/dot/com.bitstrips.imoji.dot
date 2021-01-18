@@ -1,0 +1,13 @@
+digraph G {
+"adstr::Delete Account?" -> "nattr::delete_account_dialog_title"
+"adstr::Delete Account" -> "nattr::delete_account_settings_title"
+"nattr::delete_account_settings_title" -> "lay::settings_with_toolbar.xml"
+"nattr::delete_account_settings_title" -> "lay::fragment_my_account.xml"
+"nattr::delete_account_dialog_title" -> "frag::MyAccountFragment.smali"
+"nattr::delete_account_dialog_title" -> "frag::SettingsFragment.smali"
+"lay::settings_with_toolbar.xml" -> "toplay::settings_with_toolbar.xml"
+"lay::fragment_my_account.xml" -> "toplay::fragment_my_account.xml"
+"toplay::settings_with_toolbar.xml" -> "frag::SettingsFragment.smali"
+"toplay::fragment_my_account.xml" -> "frag::MyAccountFragment.smali"
+"frag::SettingsFragment.smali" -> "act::ImojiBrowserActivity.smali"
+}

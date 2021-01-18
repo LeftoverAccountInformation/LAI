@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete account" -> "nattr::settings_delete_account"
+"adstr::Delete account" -> "nattr::settings_delete_account_confirm_button"
+"adstr::This will delete your personal data and your account from Lifesum forever. Please note that you need to cancel your Lifesum subscription separately if you chose to delete your account, except if you signed up through our website. You are of course welcome to create a new account at any time." -> "nattr::settings_delete_account_message"
+"nattr::settings_delete_account" -> "lay::dialog_delete_account.xml"
+"nattr::settings_delete_account_confirm_button" -> "lay::dialog_delete_account.xml"
+"nattr::settings_delete_account_message" -> "lay::dialog_delete_account.xml"
+"nattr::settings_delete_account" -> "act::AccountSettingsPresenter.smali"
+"lay::dialog_delete_account.xml" -> "toplay::dialog_delete_account.xml"
+"toplay::dialog_delete_account.xml" -> "frag::DeleteAccountFragmentDialog.smali"
+"frag::DeleteAccountFragmentDialog.smali" -> "act::AccountSettingsActivity.smali"
+}

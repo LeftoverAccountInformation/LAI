@@ -1,0 +1,16 @@
+digraph G {
+"adstr::Why would you like to delete your account?" -> "nattr::delete_account_empty_cause"
+"adstr::Why would you like to delete your account?" -> "nattr::delete_account_empty_text"
+"adstr::Do you want to delete your account?" -> "nattr::delete_account_popup_01"
+"adstr::Delete Account" -> "nattr::delete_account_request"
+"adstr::Delete Account" -> "nattr::delete_account_title"
+"nattr::delete_account_request" -> "lay::activity_account_delete.xml"
+"nattr::delete_account_warning" -> "lay::activity_account_delete.xml"
+"nattr::delete_account_empty_cause" -> "act::AccountDeleteActivity$c.smali"
+"nattr::delete_account_empty_text" -> "act::AccountDeleteActivity$c.smali"
+"nattr::delete_account_title" -> "act::AccountDeleteActivity$c.smali"
+"nattr::delete_account_title" -> "act::AccountDeleteActivity.smali"
+"nattr::delete_account_warning" -> "act::AccountDeleteActivity.smali"
+"lay::activity_account_delete.xml" -> "toplay::activity_account_delete.xml"
+"toplay::activity_account_delete.xml" -> "act::AccountDeleteActivity.smali"
+}

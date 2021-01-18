@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Cannot delete the last account" -> "nattr::Error_CannotDeleteTheLastAccount"
+"adstr::You can manage and cancel your subscriptions by going to your App Store account settings after purchase." -> "nattr::Onboarding_TrialPaymentInfoNew5"
+}

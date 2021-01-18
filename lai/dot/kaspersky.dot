@@ -1,0 +1,4 @@
+digraph G {
+"adstr::The subscription owner deleted his account on My Kaspersky" -> "nattr::saas_master_removed_his_account"
+"nattr::saas_master_removed_his_account" -> "act::LicenseUnboundedWarningIssue.smali"
+}

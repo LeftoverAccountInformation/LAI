@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Close your account" -> "nattr::settings_close_account"
+"nattr::settings_close_account" -> "lay::fragment_settings.xml"
+"nattr::settings_close_account" -> "frag::SettingsFragment.smali"
+"lay::fragment_settings.xml" -> "toplay::fragment_settings.xml"
+"toplay::fragment_settings.xml" -> "frag::SettingsFragment.smali"
+"frag::SettingsFragment.smali" -> "act::MainActivity.smali"
+}

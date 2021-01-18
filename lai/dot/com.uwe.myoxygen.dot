@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Delete account" -> "nattr::btn_delete_account"
+"nattr::btn_delete_account" -> "lay::fragment_dialog_myaccount.xml"
+"lay::fragment_dialog_myaccount.xml" -> "toplay::fragment_dialog_myaccount.xml"
+"toplay::fragment_dialog_myaccount.xml" -> "frag::MyAccountDialog.smali"
+}

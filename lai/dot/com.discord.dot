@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::Are you sure that you want to delete your account? This will immediately log you out of your account and you will not be able to log in again." -> "nattr::delete_account_body"
+"adstr::In order to delete your account you must first transfer ownership of all servers that you own." -> "nattr::delete_account_transfer_ownership_body"
+"nattr::delete_account" -> "lay::widget_settings_account.xml"
+"lay::widget_settings_account.xml" -> "toplay::widget_settings_account.xml"
+"toplay::widget_settings_account.xml" -> "frag::WidgetSettingsAccount.smali"
+}

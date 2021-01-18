@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://secure.protonmail.com/abuse.iframe.html?name=bottom -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-up</title>
+<link rel="stylesheet" type="text/css" href="./main.css"></head>
+<body>
+    <div id="app" data-name="bottom"><div class="formList"><div class="field field-email"><div class="group-username"><label for="notificationEmail">Add a recovery email</label><input placeholder="Recovery email" type="email" name="notificationEmail" iframename="bottom" id="notificationEmail" class="input"></div></div><footer class="signupSubmit"><p><span>By clicking Create Account, you agree to abide by</span><br><a href="https://protonmail.com/terms-and-conditions" target="_blank">ProtonMail's Terms and Conditions</a>.</p><button type="submit" class="btn btn-submit" name="submitBtn">Create Account</button><a href="https://mail.protonmail.com/login" class="link" target="_parent">Already have an account?</a></footer></div></div>
+    <script>
+        ;(function() {
+
+            /*
+                ES5 code because it's simple and we want full compat with IE11
+             */
+            var state = {
+                styles: 0,
+                scripts: 0
+            };
+
+            /**
+             * Check if we load the right config for the right iframe based on
+             * the queryParam: name=mode
+             * @param  {String}  mode
+             * @return {Boolean}
+             */
+            function isMode(mode) {
+                return (window.location.search || '').indexOf('name=' + name) > -1;
+            }
+
+            /**
+             * Check if we talk to the right iframe
+             *   - subdomain of protonmail
+             *   - localhost dev server (ex: localhost:8080)
+             * @param  {String} sourceUrl
+             * @return {Boolean}           True if it's ok
+             */
+            function testOrigin(sourceUrl) {
+                var keys = sourceUrl.split('.');
+                var values = keys.length === 2 ? keys[0] : keys[1];
+                if (/(localhost|192\.168\.\d+\.\d+):\d{4}$/.test(sourceUrl)) {
+                    return true;
+                }
+                return /protonmail/.test(sourceUrl);
+            }
+
+            /**
+             * Load an asset (script or style) and dispatch an action once everything is loaded
+             * @param  {String} targetOrigin targetOrigin for postMessage()
+             * @param  {Object} data         data to shaare
+             * @param  {String} type         Type of asset (style|script)
+             * @return {Function}
+             */
+            function attachAsset(targetOrigin, data, type) {
+
+                /**
+                 * Create asset request
+                 * @param  {String} src Source of the asset
+                 * @return {Node}
+                 */
+                var getNode = function (src) {
+                    if (type === 'scripts') {
+                        var script = document.createElement('SCRIPT');
+                        script.src = src;
+                        return script;
+                    }
+
+                    var link = document.createElement('LINK');
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css';
+                    link.href = src;
+                    return link;
+                };
+
+                function loadApp() {
+                    // it means everything is loaded with success
+                    if (state[type] === data.scripts.length) {
+
+                        // Share the config, we will need it for the challenge
+                        window.postMessage({
+                            type: 'env.loaded',
+                            data: {
+                                targetOrigin: data.config.targetOrigin
+                            }
+                        }, targetOrigin);
+
+                        // Setup the form generator lib
+                        window.postMessage({
+                            type: 'create.form',
+                            data: data.config,
+                            fallback: state.needFallback
+                        }, targetOrigin);
+                        window.removeEventListener('message', cb, false);
+                    }
+                }
+
+                /**
+                 * Iterator callback over a list of assets to load
+                 * @param  {String} src Asset's path
+                 */
+                return function (src) {
+                    var asset = getNode(src);
+                    asset.onload = function () {
+                        state[type]++;
+                        loadApp();
+                    };
+
+                    asset.onerror = function () {
+                        var isChallenge = /challenge/.test(src);
+                        state.error = true;
+                        state[type]++;
+
+                        isChallenge && (state.needFallback = true);
+
+                        loadApp();
+
+                        if (!isChallenge && !/\.css/.test(src)) {
+                            document.write('Error - Cannot load the app: ' + src);
+
+                            data.file = src;
+                            window.parent.postMessage(
+                               {
+                                   type: 'app.loaded.error',
+                                   data: data
+                               },
+                               data.config.targetOrigin
+                            );
+                        }
+                    };
+
+                    if (type === 'scripts') {
+                        return document.body.appendChild(asset);
+                    }
+                    document.head.appendChild(asset);
+                };
+            }
+
+            function cb(e) {
+                var type = (e.data || {}).type;
+                var data = (e.data || {}).data || {};
+
+                if (type === 'init.iframe' && isMode(data.name)) {
+                    if (!testOrigin(e.origin)) {
+                        return console.error('Wrong targetOrigin', e.origin);
+                    }
+
+                    // IE11 doesn't have prop on currentTarget
+                    var targetOrigin = e.currentTarget.origin || window.location.origin;
+                    data.styles.forEach(attachAsset(targetOrigin, data, 'styles'));
+                    data.scripts.forEach(attachAsset(targetOrigin, data, 'scripts'));
+                }
+            }
+            window.addEventListener('message', cb, false);
+        })();
+
+    </script>
+
+
+<script src="./main.js"></script><script src="./js"></script></body></html>

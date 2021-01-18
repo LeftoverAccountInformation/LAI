@@ -1,0 +1,18 @@
+You need to enable JavaScript to run this app.
+
+Navigated to intro page
+
+Log out
+
+# Delete Account
+
+When you press the button, your Replika, earned badges, XP, chat history,
+photos and links that you exchanged with your Replika and all other data will
+be removed permanently and will not be recoverable.
+
+## Enter your password to confirm deletion:
+
+Delete my accountI changed my mind
+
+https://my.replika.ai/
+

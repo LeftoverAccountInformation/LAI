@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Are you sure you want to delete your %s account?" -> "nattr::delete_account_confirmation_dialog_text"
+"nattr::delete_account_confirmation_dialog_text" -> "act::AccountSettingsScreen.smali"
+}

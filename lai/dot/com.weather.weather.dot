@@ -1,0 +1,11 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::account_settings_delete_account_title"
+"adstr::You can delete your data at any time but this will impact your saved locations, alerts, and account settings." -> "nattr::gdpr_control_forget_me_explanation"
+"nattr::account_settings_delete_account_title" -> "lay::ups_account_setting_fragment.xml"
+"nattr::gdpr_control_forget_me_explanation" -> "lay::activity_gdpr_controls.xml"
+"nattr::account_settings_delete_account_title" -> "frag::MyProfileFragment.smali"
+"lay::ups_account_setting_fragment.xml" -> "toplay::ups_account_setting_fragment.xml"
+"lay::activity_gdpr_controls.xml" -> "toplay::activity_gdpr_controls.xml"
+"toplay::ups_account_setting_fragment.xml" -> "frag::MyProfileFragment.smali"
+"frag::MyProfileFragment.smali" -> "act::SettingsActivity.smali"
+}

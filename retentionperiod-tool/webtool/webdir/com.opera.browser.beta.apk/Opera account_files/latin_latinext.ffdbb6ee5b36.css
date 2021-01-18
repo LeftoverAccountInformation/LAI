@@ -1,0 +1,21 @@
+/* LIGHT */
+@font-face {
+  font-family: 'Basis Grotesque';
+  font-style: normal;
+  font-weight: 100;
+  src: url("fonts/latin_latinext/basis_grotesque_light.eec780d98e3f.woff2") format("woff2"), url("fonts/latin_latinext/basis_grotesque_light.f2e8502a5111.woff") format("woff"), url("fonts/latin_latinext/basis_grotesque_light.8ced5c740d95.ttf") format("ttf"), url("fonts/latin_latinext/basis_grotesque_light.b4aea440b386.svg#basis_grotesque_light") format("svg");
+}
+/* REGULAR */
+@font-face {
+  font-family: 'Basis Grotesque';
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/latin_latinext/basis_grotesque_regular.4f630c39d83a.woff2") format("woff2"), url("fonts/latin_latinext/basis_grotesque_regular.c6303ba80abf.woff") format("woff"), url("fonts/latin_latinext/basis_grotesque_regular.e82fa9697a84.ttf") format("ttf"), url("fonts/latin_latinext/basis_grotesque_regular.5008421bce83.svg#basis_grotesque_regular") format("svg");
+}
+/* BOLD */
+@font-face {
+  font-family: 'Basis Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/latin_latinext/basis_grotesque_bold.3a048b81fd81.woff2") format("woff2"), url("fonts/latin_latinext/basis_grotesque_bold.e812ff9a3a51.woff") format("woff"), url("fonts/latin_latinext/basis_grotesque_bold.2517670cba4d.ttf") format("ttf"), url("fonts/latin_latinext/basis_grotesque_bold.0b624f46a97e.svg#basis_grotesque_bold") format("svg");
+}

@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Delete account?" -> "nattr::delete_account"
+"nattr::delete_account" -> "act::ManageFragment$ManageListAdapter$6.smali"
+"nattr::delete_account" -> "act::ManageFragment$ManageListAdapter$1.smali"
+}

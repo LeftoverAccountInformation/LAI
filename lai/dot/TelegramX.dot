@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Delete my account if away for" -> "nattr::DeleteAccountIfAwayFor2"
+"adstr::Deleted Account" -> "nattr::HiddenName"
+"nattr::DeleteAccountIfAwayFor2" -> "act::i$a.smali"
+"nattr::DeleteAccountIfAwayFor2" -> "act::az.smali"
+"nattr::HiddenName" -> "act::r.smali"
+"nattr::HiddenName" -> "act::i$a.smali"
+"nattr::HiddenName" -> "act::z.smali"
+}

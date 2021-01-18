@@ -1,0 +1,73 @@
+You need to enable JavaScript to run this app.
+
+![Language](./Registration_files/language-icon.png)
+
+US  
+en
+
+  * [English](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Português](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Français canadien](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [简体中文](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Español (colombiano)](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Czech](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Deutsch](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Español](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Français](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Italiano](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [日本語](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [한국어](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Polski](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [русский](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [ภาษา ไทย](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Türkiye](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [繁體中文](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [Việt](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+  * [العربية‬](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui?ui_locale=en_US#)
+
+## Create Account
+
+Already have an account? [Sign In](https://identity.cisco.com/api/v1/idp-
+discovery/discovery-
+oauth?response_type=token&nonce=0.11295242141932249&state=0.9586721151135862&client_id
+=profile-
+ui&redirect_uri=https%3A%2F%2Fidentity.cisco.com%2Fui%2Ftenants%2Fglobal%2Fv1.0
+%2Fprofile-
+ui&scope=%2Fiam.verify.password%20%2Fiam.user.unlock%20%2Fiam.authmodality.delete%20%2Fiam.authmodality.reader%20%2Fiam.authmodality.register%20%2Fiam.authmodality.modify%20%2Fiam.authmodality.verify%20%2Fiam.authmodality.init%20%2Fiam.authmodalities.reader%20%2Fiam.authmodality.notify)
+
+Email
+
+First Name
+
+Last Name
+
+Country or Region
+
+Company
+
+Password
+
+Confirm Password
+
+Would you like updates about Cisco promotions, products and services?
+
+Email
+
+Yes
+
+No
+
+By clicking Register, I confirm that I have read and agree to the [Cisco
+Online Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-
+full.html) and the [ Cisco Web Site Terms and
+Conditions.](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+
+Register
+
+![PoweredByOneIdent Logo](./Registration_files/oneident-logo.png)
+
+  * [Contact Support](https://identity.cisco.com/ui/tenants/global/v1.0/enrollment-ui/contact-us?ui_locale=en_US)
+  * [Feedback](mailto:feedback-external@cisco.com)
+  * [Cookies Policy](http://www.cisco.com/web/siteassets/legal/privacy_full.html#cookies)
+  * [Trademarks](http://www.cisco.com/web/siteassets/legal/trademark.html)
+

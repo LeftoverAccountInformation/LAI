@@ -1,0 +1,14 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::Are you sure you want to delete your account?" -> "nattr::delete_account_dialog"
+"adstr::We will delete your account within 48 hours." -> "nattr::delete_account_dismiss_dialog"
+"nattr::delete_account" -> "lay::dialog_delete_account.xml"
+"nattr::delete_account" -> "lay::fragment_setting_dashboard.xml"
+"nattr::delete_account_dialog" -> "lay::dialog_delete_account.xml"
+"nattr::delete_account_dismiss_dialog" -> "lay::dialog_delete_account.xml"
+"lay::dialog_delete_account.xml" -> "toplay::dialog_delete_account.xml"
+"lay::fragment_setting_dashboard.xml" -> "toplay::fragment_setting_dashboard.xml"
+"toplay::dialog_delete_account.xml" -> "act::c.smali"
+"toplay::dialog_delete_account.xml" -> "act::DataBinderMapperImpl.smali"
+"toplay::fragment_setting_dashboard.xml" -> "act::bh.smali"
+}

@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Do you want to delete your account?" -> "nattr::msg_setting_delete_account"
+"adstr::Delete Account" -> "nattr::setting_delete_account"
+"nattr::setting_delete_account" -> "lay::setting_fragment.xml"
+"nattr::msg_setting_delete_account" -> "frag::SettingFragment.smali"
+"lay::setting_fragment.xml" -> "toplay::setting_fragment.xml"
+"toplay::setting_fragment.xml" -> "frag::SettingFragment.smali"
+"frag::SettingFragment.smali" -> "act::SettingsActivity.smali"
+}

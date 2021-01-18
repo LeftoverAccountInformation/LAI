@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>star-green-filled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="59 31.5337474 49.1114562 37 51 25.4222912 43 17.2229124 54.0557281 15.5337474 59 5 63.9442719 15.5337474 75 17.2229124 67 25.4222912 68.8885438 37"></polygon>
+    </defs>
+    <g id="me-/-life-assessment-/-mood" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3-Copy" transform="translate(-43.000000, -5.000000)">
+            <g id="star-green-filled">
+                <use fill="#4BDC9D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#4BDC9D" stroke-width="3" d="M51.0891865,34.1928126 L52.4804338,25.6637781 L52.6023099,24.9166173 L52.0736333,24.3747648 L46.1122499,18.2648097 L54.2822787,17.0165403 L55.073501,16.8956523 L55.4135905,16.1710933 L59,8.53026511 L62.5864095,16.1710933 L62.926499,16.8956523 L63.7177213,17.0165403 L71.8877501,18.2648097 L65.9263667,24.3747648 L65.3976901,24.9166173 L65.5195662,25.6637781 L66.9108135,34.1928126 L59.7256849,30.2209712 L59,29.8198224 L58.2743151,30.2209712 L51.0891865,34.1928126 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

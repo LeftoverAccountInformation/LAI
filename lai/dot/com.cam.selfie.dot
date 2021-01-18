@@ -1,0 +1,13 @@
+digraph G {
+"adstr::If you delete your account, you will permanently lose your profile, messages, photos, and Matches. This cannot be undone." -> "nattr::sc_dialog_setting_delete_account_if_undone_"
+"adstr::If you delete your account, you will permanently lose your profile, messages, photos, and Matches. This cannot be undone." -> "nattr::sc_dialog_setting_delete_account_undone"
+"adstr::Thanks for your feedback! Are you sure you want to delete your account?" -> "nattr::sc_dialog_setting_delete_account_thanks_for"
+"adstr::Delete Account" -> "nattr::sc_text_setting_delete_account"
+"nattr::sc_dialog_setting_delete_account_if_undone_" -> "lay::activity_delete_account_reason.xml"
+"nattr::sc_text_setting_delete_account" -> "lay::activity_setting.xml"
+"nattr::sc_text_setting_delete_account" -> "lay::sc_item_delete_reason.xml"
+"nattr::sc_text_setting_delete_account" -> "lay::activity_delete_account_reason.xml"
+"lay::activity_delete_account_reason.xml" -> "toplay::activity_delete_account_reason.xml"
+"lay::activity_setting.xml" -> "toplay::activity_setting.xml"
+"lay::sc_item_delete_reason.xml" -> "toplay::sc_item_delete_reason.xml"
+}

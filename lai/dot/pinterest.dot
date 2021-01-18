@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Close account" -> "nattr::close_account"
+"adstr::Close account" -> "nattr::yes_close_account"
+"adstr::Permanently close my account" -> "nattr::permanently_close_my_account"
+"nattr::close_account" -> "act::a.smali"
+}

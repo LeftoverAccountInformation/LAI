@@ -1,0 +1,1 @@
+!function(e){"use strict";window.TRIPIT.ui.CreditCard=function(){var o=this;return o.createLogoSelector=function(o){return"#"+o.toUpperCase()+"_logo"},o.toggleLogos=function(o){var t=e(this.createLogoSelector(o));e("#A_logo,#D_logo,#M_logo,#V_logo").css("opacity",.3),t.css("opacity",1)},o},$document.ready(function(){e("form.credit-card-form").disableOnSubmit()})}(jQuery);

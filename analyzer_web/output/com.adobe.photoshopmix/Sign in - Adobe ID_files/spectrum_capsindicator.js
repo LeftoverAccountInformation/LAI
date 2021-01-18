@@ -1,0 +1,13 @@
+$.extend(!0,components,{capsindicator:{init:function(n){if(!components.utils.isMobileBrowser()){components.utils.wrap(n);var o=$('<div class="caps-indicator"><span class="caps-indicator-img"/></div>');$(n).on("focus keyup",function(){o.css({"background-color":$(n).css("background-color")})}),o.appendTo('.component-wrapper[for="'+components.element_name+'"]'),$(window).bind("capsOn",function(){components.utils.setCapslockState("on")}),$(window).bind("capsOff",function(){components.utils.setCapslockState("off")}),$(window).bind("capsUnknown",function(){components.utils.setCapslockState("unknown")}),$(window).capslockstate()}}},utils:{setCapslockState:function(n){$("body").removeClass("capslock-on capslock-off capslock-unknown"),$("body").addClass("capslock-"+n)}}}),/**
+ * @preserve
+ *
+ * jQuery capslockstate plugin v1.2.1
+ * https://github.com/nosilleg/capslockstate-jquery-plugin/
+ *
+ * Copyright 2012 Jason Ellison
+ * Released under the MIT license
+ * https://github.com/nosilleg/capslockstate-jquery-plugin/blob/master/MIT-LICENSE.txt
+ *
+ * Date: Sun Feb 3 2013 21:34:00 GMT
+ */
+function(n){var o="unknown",t={init:function(t){var s=(n.extend({},t),/MacPPC|MacIntel/.test(window.navigator.platform)===!0),a={isCapslockOn:function(n){var t=!1;n.shiftKey?t=n.shiftKey:n.modifiers&&(t=!!(4&n.modifiers));var a=String.fromCharCode(n.which);return a.toUpperCase()===a.toLowerCase()||(a.toUpperCase()===a?s===!0&&t||(o=!t):a.toLowerCase()===a&&(o=t)),o},isCapslockKey:function(n){var t=n.which;return 20===t&&"unknown"!==o&&(o=!o),o},hasStateChange:function(o,t){o!==t&&(n("body").trigger("capsChanged"),t===!0?n("body").trigger("capsOn"):t===!1?n("body").trigger("capsOff"):"unknown"===t&&n("body").trigger("capsUnknown"))}};return n("body").bind("keypress.capslockstate",function(n){var t=o;o=a.isCapslockOn(n),a.hasStateChange(t,o)}),n("body").bind("keydown.capslockstate",function(n){var t=o;o=a.isCapslockKey(n),a.hasStateChange(t,o)}),n(window).bind("focus.capslockstate",function(){var n=o;o="unknown",a.hasStateChange(n,o)}),a.hasStateChange(null,"unknown"),this.each(function(){})},state:function(){return o},destroy:function(){return this.each(function(){n("body").unbind(".capslockstate"),n(window).unbind(".capslockstate")})}};jQuery.fn.capslockstate=function(o){return t[o]?t[o].apply(this,Array.prototype.slice.call(arguments,1)):"object"!=typeof o&&o?void n.error("Method "+o+" does not exist on jQuery.capslockstate"):t.init.apply(this,arguments)}}(jQuery);

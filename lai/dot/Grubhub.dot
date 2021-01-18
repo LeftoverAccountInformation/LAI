@@ -1,0 +1,10 @@
+digraph G {
+"adstr::Are you sure you wish to delete this saved PayPal account?" -> "nattr::delete_paypal_message"
+"adstr::Delete PayPal Account" -> "nattr::delete_paypal_title"
+"adstr::Are you sure you wish to delete this saved Venmo account?" -> "nattr::delete_venmo_message"
+"adstr::Delete Venmo Account" -> "nattr::delete_venmo_title"
+"nattr::delete_paypal_message" -> "act::c.smali"
+"nattr::delete_paypal_title" -> "act::c.smali"
+"nattr::delete_venmo_message" -> "act::c.smali"
+"nattr::delete_venmo_title" -> "act::c.smali"
+}

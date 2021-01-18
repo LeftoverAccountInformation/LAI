@@ -1,0 +1,11 @@
+digraph G {
+"adstr::DELETE MY ACCOUNT" -> "nattr::settings__delete_account__modal__reason__primary_button"
+"adstr::Delete account" -> "nattr::settings__preferences_legal__account__delete_account"
+"nattr::settings__delete_account__modal__reason__primary_button" -> "lay::fragment_dialog_delete_account_survey.xml"
+"nattr::settings__preferences_legal__account__delete_account" -> "lay::fragment_user_legal_settings.xml"
+"nattr::settings__preferences_legal__account__delete_account" -> "act::UserLegalSettingsFragment.smali"
+"lay::fragment_dialog_delete_account_survey.xml" -> "toplay::fragment_dialog_delete_account_survey.xml"
+"lay::fragment_user_legal_settings.xml" -> "toplay::fragment_user_legal_settings.xml"
+"toplay::fragment_dialog_delete_account_survey.xml" -> "act::a.smali"
+"toplay::fragment_user_legal_settings.xml" -> "act::UserLegalSettingsFragment.smali"
+}

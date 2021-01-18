@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Legally, we need to delete your account and your data within 30 days." -> "nattr::under_age_body"
+"nattr::under_age_body" -> "lay::challenge_under_age_layout.xml"
+"lay::challenge_under_age_layout.xml" -> "toplay::challenge_under_age_layout.xml"
+"toplay::challenge_under_age_layout.xml" -> "act::1Re.smali"
+}

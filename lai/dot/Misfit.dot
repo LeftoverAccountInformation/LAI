@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Once you delete your account, all of the data you have tracked with this application will be lost" -> "nattr::account_removal_des"
+"adstr::Delete Account" -> "nattr::delete_account"
+"nattr::account_removal_des" -> "lay::account_removal.xml"
+"nattr::delete_account" -> "lay::account_removal.xml"
+"lay::account_removal.xml" -> "toplay::account_removal.xml"
+"toplay::account_removal.xml" -> "act::AccountRemovalActivity.smali"
+}

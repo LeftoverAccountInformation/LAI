@@ -1,0 +1,15 @@
+digraph G {
+"adstr::Delete account" -> "nattr::setting_delete_account"
+"adstr::Are you sure you want to delete your account?" -> "nattr::setting_delete_account_warning_title"
+"adstr::Enter your password to delete your Glow account" -> "nattr::settings_delete_account_confirm_password"
+"nattr::setting_delete_account" -> "lay::settings_delete_account.xml"
+"nattr::setting_delete_account" -> "lay::settings_activity.xml"
+"nattr::setting_delete_account_warning_title" -> "act::SettingDataAdapter.smali"
+"nattr::setting_delete_account_warning_title" -> "act::SettingsActivity.smali"
+"nattr::settings_delete_account_confirm_password" -> "act::SettingDataAdapter.smali"
+"nattr::settings_delete_account_confirm_password" -> "act::SettingsActivity.smali"
+"lay::settings_delete_account.xml" -> "toplay::settings_delete_account.xml"
+"lay::settings_activity.xml" -> "toplay::settings_activity.xml"
+"toplay::settings_delete_account.xml" -> "act::SettingDataAdapter.smali"
+"toplay::settings_activity.xml" -> "act::SettingsActivity.smali"
+}

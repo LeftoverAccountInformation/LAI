@@ -1,0 +1,1 @@
+typeof _vtsdk.eventApi.callbackEvent === 'function' && _vtsdk.eventApi.callbackEvent({"statusCode": 201,"payload": {"userId": "5956980800922298", "sessionId": "54649080092229997", "capping": null}});

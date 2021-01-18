@@ -1,0 +1,24 @@
+<svg width="17" height="17" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>svg-close-btn-black-7</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(538 214)">
+<g id="svg-close-btn-black-7">
+<g id="Close Buttons">
+<g id="Group 9">
+<g id="Group">
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="translate(-535 -211)" fill="#222222"/>
+</g>
+<g id="Line">
+<use xlink:href="#path1_stroke" transform="translate(-535 -211)" fill="#222222"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M -1.06066 10.7575L -2.12132 11.8182L -2.71839e-08 13.9395L 1.06066 12.8788L -1.06066 10.7575ZM 12.8788 1.06066L 13.9395 -2.71839e-08L 11.8182 -2.12132L 10.7575 -1.06066L 12.8788 1.06066ZM 1.06066 12.8788L 12.8788 1.06066L 10.7575 -1.06066L -1.06066 10.7575L 1.06066 12.8788Z"/>
+<path id="path1_stroke" d="M 1.06066 -1.06066L -2.71839e-08 -2.12132L -2.12132 -2.71839e-08L -1.06066 1.06066L 1.06066 -1.06066ZM 10.7575 12.8788L 11.8182 13.9395L 13.9395 11.8182L 12.8788 10.7575L 10.7575 12.8788ZM -1.06066 1.06066L 10.7575 12.8788L 12.8788 10.7575L 1.06066 -1.06066L -1.06066 1.06066Z"/>
+</defs>
+</svg>

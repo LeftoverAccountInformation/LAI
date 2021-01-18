@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://www.checkmytrip.com/cmtweb/web-desktop.html#/edit-profile -->
+<html class="gr__checkmytrip_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex,nofollow">
+  
+
+  <script type="text/javascript" async="" src="./CheckMyTrip_files/piwik.js"></script><script type="text/javascript" async="" src="./CheckMyTrip_files/ta.js"></script><script src="./CheckMyTrip_files/71082daf-f05a-452e-96a5-002692c3127a.js" type="text/javascript" charset="UTF-8"></script><script type="text/javascript" class="optanon-category-4" async="" src="./CheckMyTrip_files/container.js"></script><script async="" src="./CheckMyTrip_files/analytics.js"></script><script src="./CheckMyTrip_files/redirect_51c0f440b2.js"></script>
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta name="X-Recruiting" content="Want to join: http://goo.gl/l9yxRx">
+
+    <!-- https://github.com/apache/cordova-plugin-whitelist#content-security-policy -->
+  <!-- last few items are needed for livereload -->
+  <!-- we can later investigate more fine-grained policies -->
+  <!-- some ads and agency logos returned from MDW are random third-party HTTP
+     images... that's why we need wildcard in img-src -->
+  <meta http-equiv="Content-Security-Policy" content="img-src
+                &#39;self&#39;
+                data:
+                blob:
+                filesystem:
+                http://*
+                https://*;
+
+                 default-src
+                 &#39;self&#39;
+                 &#39;unsafe-eval&#39;
+                  data:
+                  mailto:
+                  https://www.checkmytrip.com
+                  https://www.paypal.com
+                  https://pay.skrill.com
+                  https://*.amadeus.com
+                  https://*.amadeus.net
+                  https://*.1aipp.com
+                  http://*.1aipp.com
+                  https://*.loggly.com
+                  https://maps.googleapis.com
+                  https://demo.transferbookingengine.com
+                  https://dev1-wl.transferbookingengine.com
+                  https://demo2-wl.transferbookingengine.com
+                  https://prod-green-3-wl.transferbookingengine.com
+                  https://transferbookingengine.com
+                  https://*.parkcloud.com
+                  https://*.parkvia.com
+                  https://api.foursquare.com
+                  https://*.rome2rio.com
+                  https://*.viator.com
+                  https://*.mylittleadventure.com
+                  https://amadeus.mla.cloud
+                  http://www.partner.viator.com
+                  https://www.getyourguide.com
+                  http://*.opentable.com
+                  https://*.opentable.com
+                  http://*.opentable.com.au
+                  https://*.opentable.com.au
+                  http://*.opentable.com.mx
+                  https://*.opentable.com.mx
+                  http://*.opentable.de
+                  https://*.opentable.de
+                  http://*.opentable.co.uk
+                  https://*.opentable.co.uk
+                  http://*.opentable.jp
+                  https://*.opentable.jp
+                  http://cors-test.appspot.com
+                  https://cors-test.appspot.com
+                  https://*.localytics.com
+                  http://*.localytics.com
+                  https://*.openx.net
+                  http://*.openx.net
+                  http://*.google-analytics.com
+                  https://*.google-analytics.com
+                  https://ads.travelaudience.com
+                  https://tag.yieldoptimizer.com
+                  https://pixel.sojern.com
+                 &#39;unsafe-inline&#39;
+                  ws://localhost:35729
+                  ws://127.0.0.1:35729
+                  ws://*.amadeus.net:35729
+                  http://localhost:35729
+                  http://127.0.0.1:35729
+                  http://*.amadeus.net:35729
+                  https://cdn.cookielaw.org
+                  https://code.jquery.com
+                  https://optanon.blob.core.windows.net
+                  https://*.onetrust.com
+                  https://www.loungepass.com
+                  https://cmt.carsbookingengine.com
+                  https://demo-cmt.carsbookingengine.com
+    ">
+
+
+  <link rel="shortcut icon" href="https://www.checkmytrip.com/cmtweb/images/favicon/favicon.ico">
+<link rel="apple-touch-icon" href="https://www.checkmytrip.com/cmtweb/images/favicon/touch-icon_48x48.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.checkmytrip.com/cmtweb/images/favicon/touch-icon_72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.checkmytrip.com/cmtweb/images/favicon/touch-icon_144x144.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.checkmytrip.com/cmtweb/images/favicon/touch-icon_192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.checkmytrip.com/cmtweb/images/favicon/touch-icon_16x16.png">
+
+  <title>CheckMyTrip</title>
+
+  <!-- *************** -->
+  <!-- ***   CSS   *** -->
+  <!-- *************** -->
+
+  <!-- BOWER AUTOMATIC INCLUSION -->
+  <!-- DON'T EDIT MANUALLY (updated when running the build or 'gulp bower') -->
+  <link rel="stylesheet" href="./CheckMyTrip_files/lib_4f662a2e97.css">
+
+  <!-- inline this so that even poor old IE can read it -->
+  <style type="text/css">
+    .unsupported-browser {
+      background-color: #ff8600;
+      color: #fff;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      z-index: 10;
+      padding: 0.5em;
+    }
+
+    .unsupported-browser a.close,
+    .unsupported-browser a.instruction {
+      color: #2C2C2C;
+      font-weight: bold;
+    }
+  </style>
+
+  <link rel="stylesheet" href="./CheckMyTrip_files/cmtcss_1221603ad0.css" media="screen">
+
+  <link rel="stylesheet" href="./CheckMyTrip_files/print_bf44c6a5dc.css" media="print">
+
+  <!-- ************** -->
+  <!-- ***   JS   *** -->
+  <!-- ************** -->
+
+  <!-- BOWER AUTOMATIC INCLUSION -->
+  <!-- DON'T EDIT MANUALLY (updated when running the build or 'gulp bower') -->
+  <script src="./CheckMyTrip_files/lib_01316bd769.js"></script><style>.popup-container.ionic_datepicker_popup .popup {
+    width: 280px;
+}
+
+/**/
+.padding_zero {
+    padding: 0;
+}
+
+.ionic_datepicker_popup .font_bold {
+    font-weight: bold;
+}
+
+.ionic_datepicker_popup .col {
+    text-align: center;
+}
+
+.ionic_datepicker_popup .padding_top_zero {
+    padding-top: 0;
+}
+
+.ionic_datepicker_popup .padding_left_5px {
+    padding-left: 5px;
+}
+
+.ionic_datepicker_popup .padding_right_5px {
+    padding-right: 5px;
+}
+
+.ionic_datepicker_popup .month_year_section {
+    padding: 5px 0;
+}
+
+.ionic_datepicker_popup .calendar_grid {
+    height: 215px;
+}
+
+.ionic_datepicker_popup .calendar_grid .weeks_row {
+    padding: 0;
+}
+
+.ionic_datepicker_popup .today {
+    border: 1px solid #2475ac;
+    border-radius: 50%;
+}
+
+.ionic_datepicker_popup .selected_date {
+    background-color: #2475ac;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.ionic_datepicker_popup .popup-head {
+    background-color: #2475ac;
+    display: none;
+}
+
+.ionic_datepicker_popup .popup-head .popup-title {
+    color: #ffffff;
+}
+
+.ionic_datepicker_popup .popup-head .popup-sub-title {
+    color: #ffffff;
+}
+
+.ionic_datepicker_popup .popup-body {
+    background-color: #ffffff;
+}
+
+.ionic_datepicker_popup .popup-body .selected_date_full {
+    background-color: #2475ac;
+    margin: -10px -10px 0 -10px;
+    height: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.ionic_datepicker_popup .popup-body .select_section {
+    padding: 1px 5px;
+}
+
+.ionic_datepicker_popup .popup-body .pointer_events_none {
+    pointer-events: none;
+    color: #aaaaaa !important;
+}
+
+.ionic_datepicker_popup .popup-body .month_select, .ionic_datepicker_popup .popup-body .year_select {
+    border: none;
+    border-bottom: 1px solid #2475ac;
+    padding: 0;
+}
+
+.ionic_datepicker_popup .popup-body .month_select .input-label, .ionic_datepicker_popup .popup-body .year_select .input-label {
+    padding: 2px 0;
+    width: 0;
+}
+
+.ionic_datepicker_popup .popup-body .month_select select, .ionic_datepicker_popup .popup-body .year_select select {
+    left: 10px;
+    border: none;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.ionic_datepicker_popup .popup-body .month_select:after, .ionic_datepicker_popup .popup-body .year_select:after {
+    right: 5px;
+    color: #2475ac;
+}
+
+.ionic_datepicker_popup .popup-body .show_nav {
+    padding: 5px 0 0 0;
+}
+
+.ionic_datepicker_popup .popup-body .show_nav .prev_btn_section {
+    padding: 5px 0;
+    text-align: left;
+}
+
+.ionic_datepicker_popup .popup-body .show_nav .prev_btn_section button {
+    padding: 0;
+}
+
+.ionic_datepicker_popup .popup-body .show_nav .next_btn_section {
+    padding: 5px 0;
+    text-align: right;
+}
+
+.ionic_datepicker_popup .popup-body .show_nav .next_btn_section button {
+    padding: 0;
+}
+
+.ionic_datepicker_popup .popup-body .button-clear {
+    color: #2475ac;
+}
+
+.ionic_datepicker_popup .popup-buttons {
+    padding: 0;
+    min-height: 45px;
+}
+
+.ionic_datepicker_popup .popup-buttons button {
+    background-color: #2475ac;
+    border-radius: 0;
+    margin-right: 1px;
+    color: #ffffff;
+}
+
+.ionic_datepicker_popup .row + .row {
+    padding: 0;
+}
+
+.date_col {
+    cursor: pointer;
+}</style><style>/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+For example, you might change some of the default colors:
+*/
+.ionic_timepicker_popup .font_28px {
+  font-size: 28px;
+}
+.ionic_timepicker_popup .margin_zero {
+  margin: 0;
+}
+.ionic_timepicker_popup .padding_zero {
+  padding: 0;
+}
+.ionic_timepicker_popup .popup {
+  background-color: #ffffff;
+}
+.ionic_timepicker_popup .popup-head {
+  display: none;
+}
+.ionic_timepicker_popup .popup-body {
+  padding: 0;
+}
+.ionic_timepicker_popup .popup-buttons {
+  padding: 0;
+  min-height: 44px;
+  height: 44px;
+}
+.ionic_timepicker_popup .popup-buttons .button:not(:last-child) {
+  margin-right: 1px;
+}
+.ionic_timepicker_popup .padding_left_15px {
+  padding-left: 15px;
+}
+.ionic_timepicker_popup .heading {
+  height: 44px;
+  background-color: #2475ac;
+  color: #ffffff;
+  text-align: center;
+  line-height: 44px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.ionic_timepicker_popup .time_picker_colon {
+  padding-top: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+.ionic_timepicker_popup .time_picker_arrows {
+  width: 100%;
+}
+.ionic_timepicker_popup .time_picker_box_text {
+  height: 40px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  font-size: 16px;
+  line-height: 38px;
+}
+.ionic_timepicker_popup .overflowShow {
+  white-space: normal !important;
+}
+.ionic_timepicker_popup .button_set, .ionic_timepicker_popup .button_close {
+  background-color: #2475ac;
+  color: #ffffff;
+}</style>
+
+  <!-- Google Analytics -->
+    <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Import moment localizations (English is imported by default) -->
+  <script src="./CheckMyTrip_files/libMomentLocalization_4368ad1ce6.js"></script>
+
+  <!-- APPLICATION CONFIGURATION -->
+  <script src="./CheckMyTrip_files/configuration_9f1aab5980.js"></script>
+
+  <!-- AMADEUS MOBILE JS -->
+  <!-- BOWER AUTOMATIC INCLUSION -->
+  <!-- DON'T EDIT MANUALLY (updated when running the build or 'gulp bower') -->
+  <script src="./CheckMyTrip_files/AmadeusMobile_de27f2a7f8.js"></script>
+
+  <!-- CUSTOM JS APPLICATION -->
+  <script src="./CheckMyTrip_files/application_1e35f5480e.js"></script>
+<script type="text/javascript" src="./CheckMyTrip_files/cmtyueuvdff.js" defer=""></script><style type="text/css">#d__fFH{position:absolute;top:-5000px;left:-5000px}#d__fF{font-family:serif;font-size:200px;visibility:hidden}#aetttdbbdfqvryavretfuuwaasvqweddrd{display:none!important}</style><script type="text/javascript">function OptanonWrapper(){ Optanon.BlockGoogleAnalytics('UA-18514622-5', 2); if(!OptanonActiveGroups.match(/,4,/)){var img = document.createElement('img'); img.src ='https://amadeus-d.openx.net/privacy/optout'; img.style='display: none;' ;document.body.appendChild(img);}}</script><link type="text/css" href="./CheckMyTrip_files/optanon.css" rel="stylesheet"><style>#optanon ul#optanon-menu li { background-color:  !important }#optanon ul#optanon-menu li.menu-item-selected { background-color:  !important }#optanon #optanon-popup-wrapper .optanon-white-button-middle { background-color: #00A9E0 !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle { background-color: #00A9E0 !important; border-color: #00A9E0 !important; }#optanon #optanon-popup-wrapper .optanon-white-button-middle button { color: #ffffff !important }.optanon-alert-box-wrapper .optanon-alert-box-button-middle button { color: #ffffff !important }#optanon #optanon-popup-bottom { background-color: #2475AC !important }#optanon.modern #optanon-popup-top, #optanon.modern #optanon-popup-body-left-shading { background-color: #2475AC !important }.optanon-alert-box-wrapper { background-color: !important }.optanon-alert-box-wrapper .optanon-alert-box-bg p { color: !important }.optanon-alert-box-wrapper {
+pointer-events: auto;
+  z-index: 7001;
+}
+#optanon-popup-wrapper {
+overflow: auto  !important;
+max-height: 94%  !important;
+}
+#optanon-popup-more-info-bar .optanon-status-editable {
+	      word-wrap: normal;
+	    }
+#optanon #optanon-popup-body div.optanon-main-info-text div.optanon-cookie-list span.optanon-subgroup-header {
+	      display: inline  !important; 
+	    }
+#optanon .subgroup-cookies-list {
+ height: 35px  !important;
+}
+@media only screen and (max-width: 390px) {
+#optanon-popup-bottom-logo {
+  width: 100% !important;
+}
+}
+
+#optanon *{
+ 
+    box-sizing: border-box !important;
+}
+
+#optanon .fieldset label {
+
+    word-break: keep-all;
+}
+
+#optanon {
+box-sizing: none !important;
+}</style><script type="text/javascript" src="./CheckMyTrip_files/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script></head>
+
+<body ng-app="WebDesktopModule" ng-strict-di="" onload="window.cmt.welcomeMessage()" class="grade-a platform-browser platform-macintel platform-ready popup-open" data-gr-c-s-loaded="true"><div class="optanon-alert-box-wrapper  " role="alertdialog" aria-labelledby="alert-box-title" aria-describedby="alert-box-message" style="display:none"><div class="optanon-alert-box-bottom-top"></div><div class="optanon-alert-box-bg"><div class="optanon-alert-box-logo"> </div><div class="optanon-alert-box-body"><p class="optanon-alert-box-title legacy-banner-title sr-only" id="alert-box-title" role="heading" aria-level="2">Cookie Notice</p><p class="banner-content" id="alert-box-message">In order to make this website better, to improve and personalize your experience and for advertising purposes, are you happy to accept cookies?            <a href="https://www.checkmytrip.com/cmtweb/#/cookiepolicy" class="banner-policy-link" tabindex="1" aria-label="Read more">Read more</a></p></div><div class="optanon-clearfix"></div><div class="optanon-alert-box-button-container"><div class="optanon-alert-box-button optanon-button-close"><div class="optanon-alert-box-button-middle"><button class="optanon-alert-box-close" aria-label="Close">Close</button></div></div><div class="optanon-alert-box-button optanon-button-allow"><div class="optanon-alert-box-button-middle accept-cookie-container"><button class="optanon-allow-all accept-cookies-button" title="Accept Cookies" aria-label="Accept Cookies" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Accept Cookies&#39;);" tabindex="3">Accept Cookies</button></div></div><div class="optanon-alert-box-button optanon-button-more"><div class="optanon-alert-box-button-middle"><button class="optanon-toggle-display cookie-settings-button" title="Cookie Settings" aria-label="Cookie Settings" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Banner Open Preferences&#39;);" tabindex="2">Cookie Settings</button></div></div></div><div class="optanon-clearfix optanon-alert-box-bottom-padding"></div></div></div><div id="optanon" class="modern"><div id="optanon-popup-bg"></div><div id="optanon-popup-wrapper" role="dialog" aria-modal="true" tabindex="-1" lang="en-GB"><div id="optanon-popup-top"><button onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Close Button&#39;);" aria-label="Close" class="optanon-close-link optanon-close optanon-close-ui" title="Close"><div id="optanon-close" style="background: url(https://cdn.cookielaw.org/skins/5.9.0/default_flat_bottom_two_button_black/v2/images/optanon-pop-up-close.png);width:34px;height:34px;"></div></button></div><div id="optanon-popup-body"><div id="optanon-popup-body-left"><div id="optanon-popup-body-left-shading"></div><div id="optanon-branding-top-logo" style="background-image: url(&#39;https://cdn.cookielaw.org/logos/461/461:checkmytrip.com/logo.png&#39;) !important;"></div><ul id="optanon-menu" aria-label="Navigation Menu" role="tablist"><li class="menu-item-on menu-item-about" title="Your Privacy"><p class="preference-menu-item"><button role="tab" aria-selected="true" aria-controls="Your-Privacy" id="Your-Privacy">Your Privacy</button></p></li><li class="menu-item-necessary menu-item-on" title="Strictly Necessary Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Strictly-Necessary-Cookies" id="Strictly-Necessary">Strictly Necessary Cookies</button></p></li><li class="menu-item-on menu-item-performance" title="Analytical - Performance Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Analytical---Performance-Cookies" id="Analytical--">Analytical - Performance Cookies</button></p></li><li class="menu-item-on menu-item-advertising" title="Targeting - Advertisement Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Targeting---Advertisement-Cookies" id="Targeting--">Targeting - Advertisement Cookies</button></p></li><li class="menu-item-necessary menu-item-on" title="Partners Cookies"><p class="preference-menu-item"><button role="tab" aria-selected="false" aria-controls="Partners-Cookies" id="Partners-Cookies">Partners Cookies</button></p></li><li class="menu-item-moreinfo menu-item-off" title="More Information"><p class="preference-menu-item"><a target="_blank" aria-label="More Information" href="https://www.checkmytrip.com/cmtweb/#/cookiepolicy" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Cookie Policy&#39;);">More Information</a></p></li></ul></div><div><div id="optanon-popup-body-right"><p role="heading" aria-level="2" class="legacy-preference-banner-title h2" aria-label="Privacy Preference Center">Privacy Preference Center</p><div class="vendor-header-container"><p class="header-3" role="heading" aria-level="3"></p><div id="optanon-popup-more-info-bar"><div class="optanon-status"><div class="optanon-status-editable"><form><span class="fieldset"><p><input type="checkbox" value="check" id="chkMain" checked="checked" class="legacy-group-status optanon-status-checkbox"><label for="chkMain">Active</label></p></span></form></div><div class="optanon-status-always-active optanon-status-on"><p>Always Active</p></div></div></div></div><div class="optanon-main-info-text" role="tabpanel"></div></div><div class="optanon-bottom-spacer"></div></div></div><div id="optanon-popup-bottom"> <a href="https://onetrust.com/poweredbyonetrust" target="_blank" rel="noopener"><div id="optanon-popup-bottom-logo" alt="OneTrust Website" style="background: url(https://cdn.cookielaw.org/skins/5.9.0/default_flat_bottom_two_button_black/v2/images/cookie-collective-top-bottom.png);width:155px;height:35px;" title="powered by OneTrust"></div></a><div class="optanon-button-wrapper optanon-save-settings-button optanon-close optanon-close-consent"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><button title="Save Settings" aria-label="Save Settings" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Save Settings&#39;);">Save Settings</button></div><div class="optanon-white-button-right"></div></div><div class="optanon-button-wrapper optanon-allow-all-button optanon-allow-all" style="display: none;"><div class="optanon-white-button-left"></div><div class="optanon-white-button-middle"><button title="Allow All" aria-label="Allow All" onclick="Optanon.TriggerGoogleAnalyticsEvent(&#39;OneTrust Cookie Consent&#39;, &#39;Preferences Allow All&#39;);">Allow All</button></div><div class="optanon-white-button-right"></div></div></div></div></div>
+
+  <div id="wallpaperAdContainer" ng-controller="WallpaperAdvertisementController">
+    <div id="wallpaperAdPromotionContainer">
+      <div id="wallpaperAdPromotionHeader">
+        <div class="headerTitle">
+          <p translate="">Travel Fearlessly</p>
+          <p translate="">with CheckMyTrip!</p>
+        </div>
+        <div class="downloadApp">
+          <p translate="">Download the app today.</p>
+          <div class="storesLogo">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.amadeus.cmt.client.android">
+              <img src="./CheckMyTrip_files/download-google-play.png" alt="Google Play">
+            </a>
+            <a target="_blank" href="https://itunes.apple.com/fr/app/checkmytrip-travel-itinerary/id350727384">
+              <img src="./CheckMyTrip_files/download-app-store.svg" alt="App Store">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="wallpaperAdCampaignContainer" ng-click="clickAd()"></div>
+  </div>
+
+  <div id="mainContainer">
+    <img src="./CheckMyTrip_files/logo_print.png" class="print-water-mark" alt=""> <noscript>
+  <div class="unsupported-browser">
+    <p>
+      CheckMyTrip is your personal travel app: keeping you organized and productive
+    </p>
+    <p>
+      it's easy to manage all of your travel plans in one place.
+    </p>
+
+    Please enable JavaScript in your browser to use CheckMyTrip.
+    <a class="instruction" href="http://www.enable-javascript.com/" target="_blank">
+      Instructions how to enable JavaScript in your web browser.
+    </a>
+  </div>
+</noscript>
+
+    <main class="desktop-main hasBreadCrumb" ng-class="{&#39;hasBreadCrumb&#39;:displayBreadCrumb}" style="">
+      <ion-nav-bar class="bar-stable nav-bar-container" nav-bar-transition="none" nav-bar-direction="forward" nav-swipe="">
+        <ion-nav-back-button default-nav-back-button="" ng-click="goBack()" class="showBackButton"></ion-nav-back-button>
+      <div class="nav-bar-block" nav-bar="active"><ion-header-bar class="bar-stable bar bar-header" align-title="center"><button default-nav-back-button="" ng-click="goBack()" class="button back-button buttons button-clear header-item showBackButton" style="transition-duration: 0ms;"><i class="icon ion-ios-arrow-back"></i> 
+        <span class="back-text" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span></button><div class="title title-center header-item" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"><span translate="" class="nav-bar-title">Edit profile</span></div><div class="buttons buttons-right" style="transition-duration: 0ms;"></div></ion-header-bar></div><div class="nav-bar-block" nav-bar="cached"><ion-header-bar class="bar-stable bar bar-header" align-title="center"><button default-nav-back-button="" ng-click="goBack()" class="button back-button buttons button-clear header-item showBackButton" style="transition-duration: 0ms; opacity: 0;"><i class="icon ion-ios-arrow-back"></i> 
+        <span class="back-text" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); opacity: 0;"><span class="previous-title hide">undefined</span></span></button><div class="title title-center header-item" style="transition-duration: 0ms; transform: translate3d(205.5px, 0px, 0px); opacity: 0;"><span translate="" class="nav-bar-title">Settings</span></div></ion-header-bar></div></ion-nav-bar>
+
+      <header ng-controller="HeaderController" class="desktop-header spaced-layout" ng-class="{&#39;spaced-layout&#39;:needSpacedLayout}" style="">
+        <div class="container desktop-header-inner-wrapper" id="desktop-header-inner-wrapper">
+          <a ng-click="onApplicationLogoClick()" class="desktop-header-logo"></a>
+          <nav class="edit-profile" style="">
+            <ul>
+              <!----><li ng-repeat="item in menuItems" ng-class="{active:item.isActive()}" class="" style="">
+                <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="item.onClick()" ng-class="{active:item.isActive()}" class="" style="">
+                  <i class="icon-timeline-active"></i>
+                  <div>My trips</div>
+                </a>
+              </li><!----><li ng-repeat="item in menuItems" ng-class="{active:item.isActive()}">
+                <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="item.onClick()" ng-class="{active:item.isActive()}">
+                  <i class="icon-taxi-booking-active"></i>
+                  <div>Transfer</div>
+                </a>
+              </li><!----><li ng-repeat="item in menuItems" ng-class="{active:item.isActive()}">
+                <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="item.onClick()" ng-class="{active:item.isActive()}">
+                  <i class="icon-parking"></i>
+                  <div>Parking</div>
+                </a>
+              </li><!----><li ng-repeat="item in menuItems" ng-class="{active:item.isActive()}">
+                <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="item.onClick()" ng-class="{active:item.isActive()}">
+                  <i class="icon-activity"></i>
+                  <div>Activities</div>
+                </a>
+              </li><!----><li ng-repeat="item in menuItems" ng-class="{active:item.isActive()}">
+                <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="item.onClick()" ng-class="{active:item.isActive()}">
+                  <i class="icon-lounge"></i>
+                  <div>Lounges</div>
+                </a>
+              </li><!---->
+
+              <!-- More menu -->
+              <!----><li ng-if="menuItems" ng-class="{active: isActiveMenuEntryInMoreMenu()}" class="active" style="">
+                <script id="moreMenuPopOver.html" type="text/ng-template">
+                  <ion-popover-view ng-style="contentStyle">
+                    <ion-content>
+                      <ion-list show-delete="false" show-reorder="false" can-swipe="false">
+                        <ion-item ng-repeat="item in menuItems" ng-click="popoverItemClicked(item)">
+                          <i class="{{item.icon}} space-rt"></i> {{item.label|translate}}
+                        </ion-item>
+                      </ion-list>
+                    </ion-content>
+                  </ion-popover-view>
+                </script>
+
+                <!----><a ng-if="moreMenuItems.length !== 0" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="openMoreMenu()" ng-class="{active: isActiveMenuEntryInMoreMenu() || isMoreMenuOpen}" class="active" style="">
+                  <i class="icon icon-more-dots"></i>
+                  <div translate="" id="more-menu-text">More</div>
+                </a><!---->
+              </li><!---->
+            </ul>
+          </nav>
+          <cmt-menu list="actionMenuList" context="actionMenuContext" show-label="false" is-header-menu="false" menu-style="actionMenuStyle" class="header-menu e2e-header-menu"><script debug-file-path="CmtMenuDirective.html" id="menuPopOver.html" type="text/ng-template"><ion-popover-view ng-style="contentStyle">
+    <ion-content>
+      <ion-list show-delete="false"
+                show-reorder="false"
+                can-swipe="false">
+        <ion-item ng-repeat="item in listItem" ng-click="popoverItemClicked(item,$event)">
+          <i ng-attr-id="{{'menu-' + item.name}}" class="icon space-rt" ng-class="item.icon"></i> {{item.label|translate}}
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-popover-view></script><!----><button class="icon icon-plus btn-inverse" id="menu-main" ng-class="{&#39;btn-inverse&#39;: !isHeaderMenu, &#39;button button-clear&#39;: isHeaderMenu}" ng-click="handleClick($event)" ng-if="show" stop-propagation=""></button><!----></cmt-menu>
+        </div>
+        <!----><ol class="breadcrumb" ng-if="displayBreadCrumb" ncy-breadcrumb="" style=""><!----><li ng-repeat="step in steps" ng-class="{active: $last}" ng-switch="$last || !!step.abstract"><!----><a ng-switch-when="false" href="https://www.checkmytrip.com/cmtweb/web-desktop.html#/settings">Settings</a><!----><!----></li><!----><li ng-repeat="step in steps" ng-class="{active: $last}" ng-switch="$last || !!step.abstract" class="active"><!----><!----><span ng-switch-when="true">Edit profile</span><!----></li><!----></ol><!---->
+      </header>
+
+      <ion-nav-view animation="no-animation" class="ionic view-container" nav-view-transition="none" nav-view-direction="forward" nav-swipe=""><ion-view debug-file-path="TriplistView.html" class="pane" state="triplist" nav-view="cached" style="transform: translate3d(0%, 0px, 0px); opacity: 0;"><ion-nav-title translate="" class="hide"></ion-nav-title><ion-nav-buttons side="primary" class="hide"></ion-nav-buttons><!----><!----><ion-content class="hasFloatingButton scroll-content ionic-scroll overflow-scroll  has-header" id="triplistScrollHandle" ng-class="{&#39;custom-triplist-bg-content&#39;: isTripListBackgroundImageAvailable}"><div class="scroll"><div id="triplist-progress-bar"></div><!----><section class="contained-pad timeline-home" ng-class="status"><div class="banner"></div><section class="timeline-module e2e-timeline-module"><!----><div class="nodes-line first" ng-if="showEmptyTripList" style=""></div><!----><div class="pastTripButtonContainer"><!----><button class="btn-small" id="loadPastTripsButton" ng-click="loadPastTripButtonClick();" ng-disabled="disableLoadPastTrip" ng-if="!pastTripMenu" type="button" style=""><i class="icon-past-trip space-rt"></i>Past trips</button><!----></div></section><!----><!----><ng-include ng-if="trips.length === 0" src="&#39;itmngt/templates/partial/timelineAdBannerCardPartial.html&#39;" class="" style=""><section class="timeline-module timelineAdBanner" debug-file-path="timelineAdBannerCardPartial.html" ng-class="{&#39;timelineAdBanner-displayed&#39;: advertisementBanner.hasAdvertisement}"><div class="nodes-line"><div class="dateHolder"><span class="date"><span>Ad</span></span></div></div><div class="timeline-card" ng-style="advertisementBanner.cardStyle" style="height: 0px;"><div class="container ng-hide" ng-show="advertisementBanner.isImage" ng-click="onAdBannerImageClick()"><img class="timelineAdBannerFillImage" ng-src=""></div><div class="container ng-hide" ng-show="advertisementBanner.isJavascript" id="timelineAdBannerJavascript"></div></div></section></ng-include><!----><!----><!----><!----><!----><section class="timeline-module timeline-module-email" ng-class="{&#39;custom-triplist-bg-email&#39;: (isTripListBackgroundImageAvailable &amp;&amp; !showEmptyTripList)}" ng-if="emailForwardEnabled &amp;&amp; tripLoadCompleted" style=""><!----><div class="nodes-line" ng-if="showEmptyTripList"></div><!----><div><div class="icons"><i class="i-large icon-send"></i> <i class="i-huge icon-envelope"></i> <i class="i-large icon-arrow-right"></i> <i class="i-huge icon-desktop" ng-class="{&#39;icon-iphone&#39;: !isWebDesktop, &#39;icon-desktop&#39;: isWebDesktop}" ng-click="handleEasterEgg()" style="cursor:default"></i></div><p class="e2e-add-your-trip" translate="">Simply ADD YOUR TRIPS by forwarding your booking confirmation email to:</p><p><a class="forward-trip-email" ng-click="tryCopyingEmailToClipboard($event)">trips@checkmytrip.com</a></p></div></section><!----></section></div></ion-content></ion-view><ion-view debug-file-path="SettingsView.html" class="pane" state="settings" nav-view="cached" style="transform: translate3d(0%, 0px, 0px); opacity: 0;"><ion-nav-title translate="" class="hide"></ion-nav-title><ion-content class="scroll-content ionic-scroll overflow-scroll  has-header"><div class="scroll"><article class="contained-mobile-pad"><div class="list"><!----><div ng-if="isProfileSectionEnabled" class="" style=""><div class="item item-divider settings-header" translate="">Profile</div><!----><a class="item cmt-link-midcontrast item-icon-right" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="navigateTo(&#39;notifications-settings&#39;)" ng-if="enableNotificationsSection"><span translate="">Notifications</span> <i class="icon icon-chevron-right-small"></i> </a><!----><a class="item cmt-link-midcontrast item-icon-right e2e-personal-information" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="navigateTo(&#39;edit-profile&#39;)"><span translate="">Personal information</span> <i class="icon icon-chevron-right-small"></i> </a><!----><!----><!----><!----><!----></div><!----><!----><div ng-if="showLegalSection" class=""><div class="item item-divider settings-header" translate="">Legal</div><!----><a class="item cmt-link-midcontrast item-icon-right" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="navigateTo(&#39;termsandconditions&#39;)" ng-if="enableTermsAndConditionsSection"><span translate="">Terms and Conditions</span> <i class="icon icon-chevron-right-small"></i> </a><!----><!----><a class="item cmt-link-midcontrast item-icon-right" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="navigateTo(&#39;privacypolicy&#39;)" ng-if="enablePrivacyPolicySection"><span translate="">Privacy Policy</span> <i class="icon icon-chevron-right-small"></i> </a><!----><!----><a class="item cmt-link-midcontrast item-icon-right" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="navigateTo(&#39;cookiepolicy&#39;)" ng-if="enableCookiePolicyButton"><span translate="">Cookie Policy</span> <i class="icon icon-chevron-right-small"></i> </a><!----><!----><a class="item cmt-link-midcontrast item-icon-right optanon-toggle-display" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-if="enableCookieSettingsButton"><span translate="">Cookie Settings</span> <i class="icon icon-chevron-right-small"></i></a><!----></div><!----><!----><div ng-if="enableAboutSection" class=""><!----><!----></div><!----><!----><div ng-if="enableAboutSection" class=""><div class="item item-divider settings-header" translate="">About</div><!----><!----><a class="item cmt-link-midcontrast item-icon-right" href="https://www.checkmytrip.com/cmtweb/web-desktop.html" ng-click="navigateTo(&#39;faq&#39;)" ng-if="enableFAQButton"><span translate="">FAQ</span> <i class="icon icon-chevron-right-small"></i></a><!----></div><!----></div><!----><div class="contained-narrow spaced-layout-element" ng-if="isProfileSectionEnabled" style=""><button ng-click="navigateTo(&#39;logout&#39;)" class="btn-fullwidth" id="e2e-logout" translate="">Logout</button></div><!----></article></div></ion-content></ion-view><ion-view debug-file-path="ProfileView.html" class="pane" state="edit-profile" nav-view="active" style="transform: translate3d(0%, 0px, 0px); opacity: 1;"><ion-nav-title translate="" class="hide"></ion-nav-title><ion-content class="spaced-layout scroll-content ionic-scroll overflow-scroll  has-header"><div class="scroll"><article class="contained-narrow"><form name="forms.editProfileForm" novalidate="" role="form" class="ng-pristine ng-valid-pattern ng-valid-email ng-valid-minlength ng-valid-maxlength ng-valid ng-valid-required" style=""><cmt-input-email label="Email" model-container="userProfile" model-key="&#39;userId&#39;" name="email" readonly="true" required=""><div class="" debug-file-path="CmtInputEmailDirective.html"><label for="1576382133377_313" ng-bind-html="label | nonBreaking" ng-show="label">Email</label> <span class="input-wrap"><input autocomplete="off" id="1576382133377_313" name="emailInput" ng-class="{&#39;color-lowContrast&#39;: readonly}" ng-model="modelContainer[modelKey]" ng-pattern="/^\S+@\S+\.\S+$/" ng-readonly="readonly" ng-required="required" placeholder="" type="email" class="ng-pristine ng-untouched ng-valid-pattern color-lowContrast ng-valid-email ng-not-empty ng-valid ng-valid-required" required="required" readonly="readonly" style=""> <span class="ng-hide validation" ng-show="form.$submitted &amp;&amp; form.emailInput.$error.required">This field is mandatory</span> <span class="ng-hide validation" ng-show="form.$submitted &amp;&amp; form.emailInput.$error.pattern">Email address is not valid</span></span></div></cmt-input-email><cmt-input-text class="semi-spaced-element" data="userProfile.firstName" label="First name" name="firstname" readonly="disableUpdateProfile" required="" use-pattern="firstName"><script debug-file-path="CmtInputTextDirective.html" id="CmtInputTextDirective_Errors.html" type="text/ng-template"><span ng-show="form.$submitted && form.{{name}}Input.$error.required" class="validation ng-hide">{{requiredTranslation}}</span>
+  <span ng-show="form.$submitted && form.{{name}}Input.$error.minlength" class="validation ng-hide">{{minLengthTranslation}}</span>
+  <span ng-show="form.$submitted && form.{{name}}Input.$error.maxlength" class="validation ng-hide">{{maxLengthTranslation}}</span>
+  <span ng-show="form.$submitted && form.{{name}}Input.$error.pattern" class="validation ng-hide">{{usePatternTranslation}}</span></script><div class="semi-spaced-element"><!----><label for="1576382133383_295" ng-bind-html="label | nonBreaking" ng-if="label" class="" style="">First&nbsp;name</label><!----> <span class="input-wrap"><input autocomplete="on" id="1576382133383_295" name="firstnameInput" ng-blur="onBlur($event);" ng-class="{&#39;color-lowContrast&#39;: readonly}" ng-focus="onFocus($event);" ng-model="data" ng-pattern="/^([a-zA-Z ]){2,25}$/" ng-readonly="readonly" ng-required="required" placeholder="" type="text" class="ng-pristine ng-untouched ng-valid-pattern ng-valid-minlength ng-valid-maxlength ng-not-empty ng-valid ng-valid-required" required="required" style=""><!----><ng-include src="&#39;CmtInputTextDirective_Errors.html&#39;" class="" style=""><span ng-show="form.$submitted &amp;&amp; form.firstnameInput.$error.required" class="validation ng-hide">This field is mandatory</span>
+  <span ng-show="form.$submitted &amp;&amp; form.firstnameInput.$error.minlength" class="validation ng-hide">Min length not reached</span>
+  <span ng-show="form.$submitted &amp;&amp; form.firstnameInput.$error.maxlength" class="validation ng-hide">Max length exceeded</span>
+  <span ng-show="form.$submitted &amp;&amp; form.firstnameInput.$error.pattern" class="validation ng-hide">Name must be between 2 and 25 characters and can only contain letters and spaces</span></ng-include></span></div></cmt-input-text><cmt-input-text class="semi-spaced-element" data="userProfile.lastName" label="Last name" name="lastname" readonly="disableUpdateProfile" required="" use-pattern="lastName"><script debug-file-path="CmtInputTextDirective.html" id="CmtInputTextDirective_Errors.html" type="text/ng-template"><span ng-show="form.$submitted && form.{{name}}Input.$error.required" class="validation ng-hide">{{requiredTranslation}}</span>
+  <span ng-show="form.$submitted && form.{{name}}Input.$error.minlength" class="validation ng-hide">{{minLengthTranslation}}</span>
+  <span ng-show="form.$submitted && form.{{name}}Input.$error.maxlength" class="validation ng-hide">{{maxLengthTranslation}}</span>
+  <span ng-show="form.$submitted && form.{{name}}Input.$error.pattern" class="validation ng-hide">{{usePatternTranslation}}</span></script><div class="semi-spaced-element"><!----><label for="1576382133391_448" ng-bind-html="label | nonBreaking" ng-if="label" class="" style="">Last&nbsp;name</label><!----> <span class="input-wrap"><input autocomplete="on" id="1576382133391_448" name="lastnameInput" ng-blur="onBlur($event);" ng-class="{&#39;color-lowContrast&#39;: readonly}" ng-focus="onFocus($event);" ng-model="data" ng-pattern="/^([a-zA-Z ]){2,25}$/" ng-readonly="readonly" ng-required="required" placeholder="" type="text" class="ng-pristine ng-untouched ng-valid-pattern ng-valid-minlength ng-valid-maxlength ng-not-empty ng-valid ng-valid-required" required="required" style=""><!----><ng-include src="&#39;CmtInputTextDirective_Errors.html&#39;" class="" style=""><span ng-show="form.$submitted &amp;&amp; form.lastnameInput.$error.required" class="validation ng-hide">This field is mandatory</span>
+  <span ng-show="form.$submitted &amp;&amp; form.lastnameInput.$error.minlength" class="validation ng-hide">Min length not reached</span>
+  <span ng-show="form.$submitted &amp;&amp; form.lastnameInput.$error.maxlength" class="validation ng-hide">Max length exceeded</span>
+  <span ng-show="form.$submitted &amp;&amp; form.lastnameInput.$error.pattern" class="validation ng-hide">Name must be between 2 and 25 characters and can only contain letters and spaces</span></ng-include></span></div></cmt-input-text><!----><button class="btn-fullwidth spaced-element" name="profile_view_submit" ng-click="saveProfile()" translate="" type="submit" ng-disabled="forms.editProfileForm.$pristine" ng-hide="disableUpdateProfile" disabled="disabled">Save</button><!----><div class="contained-narrow spaced-element" ng-if="enableDeleteAccount" style=""><button class="btn-fullwidth btn-danger e2e-delete-account" name="profile_view_delete_account_button" ng-click="deleteAccount()" translate="" type="button">Delete account</button></div><!----></form></article></div></ion-content></ion-view></ion-nav-view>
+
+      <footer ng-controller="FooterController" class="desktop-footer" id="footer">
+        <div class="desktop-footer-inner-wrapper" id="desktop-footer-inner-wrapper">
+          <div class="copyright">
+            <img src="./CheckMyTrip_files/amadeusLogo.png" alt="">
+            <p>© 2011-2019 Amadeus IT Group SA.</p>
+          </div>
+          <ul>
+            <li>
+              <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html#/faq" translate="">FAQ</a>
+            </li>
+            <li>
+              <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html#/termsandconditions" translate="">Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html#/privacypolicy" translate="">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html#/cookiepolicy" translate="">Cookie Policy</a>
+            </li>
+            <!----><li enabled-if="&#39;cookiesConsent&#39;">
+              <a href="https://www.checkmytrip.com/cmtweb/web-desktop.html" class="optanon-toggle-display" translate="">Cookie Settings</a>
+            </li><!---->
+          </ul>
+          <div class="language-selection">
+            <span class="selected-language">
+              <a stop-propagation="" ng-click="openLanguageSelectionPopover($event)">
+                English
+                <i class="icon-chevron-up"></i>
+              </a>
+            </span>
+          </div>
+
+          <script id="language-selection-popover.html" type="text/ng-template">
+            <ion-popover-view ng-style="contentStyle">
+              <ion-content>
+                <table>
+                  <tr ng-repeat="row in items">
+                    <td ng-click="itemClicked(item, $event)" ng-repeat="item in row">{{item}}</td>
+                  </tr>
+                </table>
+              </ion-content>
+            </ion-popover-view>
+          </script>
+          <!-- Clearing float left to have the height automatically calculated -->
+          <div class="clear"></div>
+        </div>
+      </footer>
+    </main>
+
+      <div id="unsupported-browser-banner" class="unsupported-browser" style="display: none">
+    CheckMyTrip is optimized for recent browsers. For a better user experience, please update your browser.
+
+    <a class="close" href="javascript:window.closeOutdatedBrowserWarning()">X</a>
+  </div>
+
+  <script>
+    // for browsers that are old, display an informative banner
+    if (!window.BrowserUtil.isBrowserOfficiallySupported()) {
+      var domElem = document.getElementById('unsupported-browser-banner');
+      domElem.style.display = 'block';
+      window.closeOutdatedBrowserWarning = function () {
+        domElem.parentNode.removeChild(domElem);
+      };
+    }
+
+    // for browsers that are VERY old (IE 10, old Safari...) and known to display the app broken,
+    // hide all the other content
+    if (window.BrowserUtil.isBrowserExtremelyOutdated()) {
+      document.body.className += ' extremely-outdated-browser';
+      document.getElementById('desktop-header-inner-wrapper').style.display = 'none';
+      document.getElementById('desktop-footer-inner-wrapper').style.display = 'none';
+    }
+  </script>
+  </div>
+  <!---->
+
+
+
+<div class="backdrop visible active"></div><div id="d__fFH" style="position: absolute !important; top: -5000px !important; left: -5000px !important;"><object id="d_dlg" classid="clsid:3050f819-98b5-11cf-bb82-00aa00bdce0b" width="0px" height="0px"></object><span id="d__fF" style="font-family: Courier, serif !important; font-size: 72px !important; visibility: hidden;">The quick brown fox jumps over the lazy dog.</span></div><div class="loading-container"><div class="loading"></div></div><div class="click-block click-block-hide"></div><div class="popup-container popup-showing active" ng-class="cssClass"><div class="popup"><div class="popup-head"><h3 class="popup-title" ng-bind-html="title">Delete account</h3><!----></div><div class="popup-body">Are you sure you want to delete your CheckMyTrip account? All your information will be deleted.</div><div class="popup-buttons" ng-show="buttons.length"><!----><button ng-repeat="button in buttons" ng-click="$buttonTapped(button, $event)" class="button button-default" ng-class="button.type || &#39;button-default&#39;" ng-bind-html="button.text" style="">Cancel</button><!----><button ng-repeat="button in buttons" ng-click="$buttonTapped(button, $event)" class="button button-positive" ng-class="button.type || &#39;button-default&#39;" ng-bind-html="button.text" style="">Ok</button><!----></div></div></div></body></html>

@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::account_delete_account"
+"nattr::account_delete_account" -> "lay::account_activity.xml"
+"lay::account_activity.xml" -> "toplay::account_activity.xml"
+}

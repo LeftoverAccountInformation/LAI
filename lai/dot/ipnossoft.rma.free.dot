@@ -1,0 +1,13 @@
+digraph G {
+"adstr::Failed to delete account" -> "nattr::failed_to_delete_account"
+"adstr::Delete my account" -> "nattr::text_delete_my_account"
+"adstr::Why do you wish to delete your account?" -> "nattr::text_delete_your_account_reason"
+"nattr::text_delete_my_account" -> "lay::delete_account_layout.xml"
+"nattr::text_delete_my_account" -> "lay::account_param_layout.xml"
+"nattr::text_delete_your_account_reason" -> "lay::delete_account_layout.xml"
+"nattr::failed_to_delete_account" -> "act::DeleteAccountActivity$deleteAccount$1.smali"
+"lay::delete_account_layout.xml" -> "toplay::delete_account_layout.xml"
+"lay::account_param_layout.xml" -> "toplay::account_param_layout.xml"
+"toplay::delete_account_layout.xml" -> "act::DeleteAccountActivity.smali"
+"toplay::account_param_layout.xml" -> "act::AccountParamsActivity.smali"
+}

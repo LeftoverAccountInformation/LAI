@@ -1,0 +1,15 @@
+digraph G {
+"adstr::Close Account" -> "nattr::close_account_actionbar_title"
+"adstr::We were unable to close your account. Please try again later." -> "nattr::close_account_failed"
+"adstr::Close my account" -> "nattr::close_account_start_continue_button"
+"adstr::CloseAccountActivity" -> "nattr::title_activity_close_account"
+"adstr::Congratulations! Your subscription has been restarted. You can cancel your subscription in Account." -> "nattr::restart_membership_subheader_confirmation"
+"adstr::Congratulations! Your subscription has been restarted. You can cancel your subscription in Account Settings > Billing at anytime." -> "nattr::your_subscribtion_has_been_restarted"
+"nattr::close_account_start_continue_button" -> "frag::CloseAccountFragment.smali"
+"nattr::your_subscribtion_has_been_restarted" -> "frag::ActivityFragment.smali"
+"nattr::close_account_actionbar_title" -> "act::CancelAccountActivity.smali"
+"nattr::close_account_failed" -> "act::CancelAccountActivity$closeCallback$1$submitCloseAccount$1.smali"
+"nattr::your_subscribtion_has_been_restarted" -> "act::BillingSettingsFragment$restartMembership$$inlined$let$lambda$1$1.smali"
+"frag::CloseAccountFragment.smali" -> "act::CancelAccountActivity.smali"
+"frag::ActivityFragment.smali" -> "act::HomeActivity.smali"
+}

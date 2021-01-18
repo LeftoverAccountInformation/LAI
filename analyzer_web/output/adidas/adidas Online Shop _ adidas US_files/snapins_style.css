@@ -1,0 +1,1256 @@
+/********** Widget Button Styles ******************/
+.embeddedServiceSidebar .message, .embeddedServiceHelpButton .message {
+    font-family: 'adihausregular','AdihausDIN' !important;
+    font-size: 13px !important;
+    background-color: #000000 !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    color: #ffffff !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-color: #000000 !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer.helpButton {
+    background-color: #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .minimizedText > .message {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+.embeddedServiceSidebar a:hover {
+    text-decoration: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarHeader {
+    background-color: #000000 !important;
+}
+.embeddedServiceSidebar .dockableContainer {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5) !important;
+}
+/****** Button Styles ***********/
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogTopButton,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-0,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .closeChatButton {
+    background: #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton .label,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogButton .label,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .closeChatButton .label,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .postChatButton .label,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateWaiting .waitingCancelChat .label {
+    font-size: 14px !important;
+    font-family: 'adiBlack', 'adiNeueProBlack', 'adineuePROCyr-Black', 'AdineuePRO' !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    cursor: pointer !important;
+    letter-spacing: 1px !important;
+    word-spacing: 0px !important;
+    white-space: normal !important;
+    position: relative !important;
+    display: inline-block !important;
+    padding-right: 25px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-1 .label,.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogBottomButton .label {
+    color: #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton span::after,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogTopButton span::after,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-0 span::after,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton span::after {
+    width: 17px !important;
+    height: 16px !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453ay") !important;
+    background-repeat: no-repeat !important;
+    display: block !important;
+    content: "" !important;
+    margin-left: 8px !important;
+    margin-top: 1px !important;
+    top: 7px !important;
+    position: absolute !important;
+    right: 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogBottomButton .label::after,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-1 .label::after, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateWaiting .waitingCancelChat .label::after {
+
+    width: 17px !important;
+    height: 16px !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453ax") !important;
+    background-repeat: no-repeat !important;
+    display: block !important;
+    content: "" !important;
+    margin-left: 8px !important;
+    margin-top: 1px !important;
+    top: 7px !important;
+    position: absolute !important;
+    right: 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogButton,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton {
+    height: auto !important;
+    padding: 5px 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton.postChatButton {
+    border: 1px solid #000000 !important;
+    background: #000000 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton.postChatButton:hover {
+    border: 1px solid #333333 !important;
+    background: #333333 !important;
+}
+.embeddedServiceSidebar .chatOptions a:hover {
+    color: #0286cd !important;
+}
+.embeddedServiceSidebar .uiButton,
+.embeddedServiceSidebar .uiButton:hover,
+.embeddedServiceSidebar .uiButton:focus,
+.embeddedServiceSidebar .uiButton:active {
+    outline: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarButton.uiButton--inverse:not(:disabled):focus, 
+.embeddedServiceSidebar .embeddedServiceSidebarButton.uiButton--inverse:not(:disabled):hover{
+    background: none !important;
+}
+.embeddedServiceSidebar .postChatButton.uiButton--inverse:not(:disabled):focus,
+.embeddedServiceSidebar .postChatButton.uiButton--inverse:not(:disabled):hover{
+    background: #c8cbcc !important;
+    border: none !important;
+}
+
+/******* Prechat *******/
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField.inputSplitName {
+    width: 100% !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarHeader .headerText {
+    font-family: 'adiLight', 'adiNeueProLight', 'adineuePROCyr-Light', 'AdineuePRO' !important;
+    font-size: 15px !important;
+    color: #ffffff !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    font-weight: normal;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .uiInput .uiLabel-left {
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-family: 'adihausregular','AdihausDIN' !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .slds-style-inputtext,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .slds-style-select {
+    font-size: 13px !important;
+    font-family: 'adihausbold' !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid #b6b6b6 !important;
+    background: transparent !important;
+    height: 20px !important;
+    line-height: 20px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .slds-style-inputtext:focus,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .slds-style-select:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 2px solid #000000 !important;
+    box-shadow: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField {
+    margin-left: 0 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .uiInputSelect::after {
+    border-top: 7px solid #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .split-field-container,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .uiInput--input,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .uiInput--select {
+    margin-bottom: 20px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .list {
+    margin: 18px 24px 0 !important;
+    padding: 0 0 15px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .uiInputDefaultError .form-element__help {
+    color: #ff6d6d !important;
+    font-size: 12px !important;
+    font-family: 'adihausregular','AdihausDIN' !important;
+    text-align: left !important;
+    line-height: 1.63636 !important;
+    margin-top: -20px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .has-error .slds-style-inputtext:not(:focus) {
+    border-bottom: 2px solid #ff6d6d !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateWaitingHeader .reconnectingText {
+    font-size: 14px !important;
+    font-family: 'adihausregular','AdihausDIN' !important;
+    line-height: 1.3 !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState #dialogTextTitle {
+    font-weight: 800 !important;
+    font-family: 'adiBlack', 'adiNeueProBlack', 'adineuePROCyr-Black', 'AdineuePRO' !important;
+    color: #000000 !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0px !important;
+}
+.embeddedServiceSidebar.modalContainer {
+    font-family: 'adihausregular','AdihausDIN' !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState #dialogTextBody {
+    color: #000000 !important;
+    font-family: 'adihausregular','AdihausDIN' !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer {
+    background-color: #000000 !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarExtendedHeader {
+    background-color: #000000 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .chatSessionStartTime {
+    font-family: "adihausregular","AdihausDIN" !important;
+    color: #616363 !important;
+    font-size: 12px !important;
+    margin-top: 10px !important;
+    margin-bottom: 6px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.agent .chatContent {
+    font-weight: normal !important;
+    font-family: "adihausregular","AdihausDIN" !important;
+    font-size: 14px !important;
+    background: none !important;
+    color: #000000 !important;
+    margin-top: 5px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.agent .timeContent {
+    font-weight: normal !important;
+    font-family: "adihausregular","AdihausDIN" !important;
+    color: #616363 !important;
+    font-size: 10px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.chasitor .chatContent {
+    background-color: #0286cd !important;
+    font-weight: normal !important;
+    font-family: "adihausregular","AdihausDIN" !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.chatMessage {
+    margin-bottom: 20px !important;
+    overflow: visible !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorText {
+    font-weight: normal !important;
+    font-family: "adihausregular","AdihausDIN" !important;
+    color: #000000 !important;
+    font-size: 14px !important;
+    min-height: 48px;
+    border: 1px solid #ffffff;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorText:focus+label:after {
+    border: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorText:focus+label:after {
+    border: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatUnreadMessageBanner{
+    border: 1px solid #005290 !important;
+    border-radius: 0 !important;
+    z-index: 9999;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatUnreadMessageBanner .dot {
+    background-color: #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatUnreadMessageBanner .message {
+    background-color: #ffffff !important;
+    border: none !important;
+    color: #000000 !important;
+}
+.embeddedServiceSidebar a:focus, 
+.embeddedServiceSidebar input:focus, 
+.embeddedServiceSidebar button:focus {
+    outline: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .endChatButton{
+    line-height: 15px !important;
+}
+
+/*******************##### CHAT BUTTON STYLES #####**********************/
+        
+/******* always hide offline button ********/
+.embeddedServiceSidebar #esw_button_offline{
+    display: none !important;
+}
+
+/***********hide the default chat icon *****************/
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .embeddedServiceIcon:before{
+    display: none !important;
+}
+.embeddedServiceHelpButton .helpButton .helpButtonLabel, 
+.embeddedServiceHelpButton .helpButton .minimizedText .message{
+    display: none !important;
+}
+
+/*********** hide the message section. Show this only for new messages ********/
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .minimizedText>.message{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .uiButton.agentOnline, 
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer {
+
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 0 !important;
+    min-width: 48px !important;
+    max-width: 48px !important;
+    padding: 0 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .helpButton{
+    height: 48px !important;
+    bottom: 12px !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer{
+    bottom: 15px !important;
+    right: 15px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .helpButton .uiButton:hover::before, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .helpButton .uiButton:focus::before{
+    border-radius: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .helpButton .uiButton:hover::before, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .helpButton .uiButton:focus::before{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .embeddedServiceIcon svg{
+    display: none !important;
+}
+
+/************** add the initial chat icon **************************/
+.embeddedServiceSidebar .embeddedServiceLiveAgentChatButton .embeddedServiceIcon{
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453az") !important;
+    background-repeat: no-repeat !important;
+    height: 32px !important;
+    width: 32px !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+    display: inline-block !important;
+    background-position: 3px 6px;
+}
+.embeddedServiceSidebar .helpButton .minimizedText{
+    margin-left: -9px !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .content{
+    padding: 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer.helpButton{
+    background-color: #000000 !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer.newMessage, 
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer.idleTimeout {
+    background-color: #000000 !important;
+}
+
+/*** For active agent **/
+
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .minimizedText::before{
+    content: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453az") !important;
+}
+
+/****** Initial chat icon when min from prechat ****/
+
+.embeddedServiceSidebar .helpButton .minimizedText::before {
+    content: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453az") !important;
+}
+
+/***** for new message ***/
+
+.embeddedServiceSidebar .newMessage .minimizedText::before, 
+.embeddedServiceSidebar .idleTimeout .minimizedText::before{
+    display: none !important;
+}
+
+.embeddedServiceSidebar .newMessage .minimizedText>.message, 
+.embeddedServiceSidebar .idleTimeout .minimizedText>.message{
+    display: inline !important;
+}
+
+/**** to remove the active agent icon and add the loader when the agent is on the way ****/
+
+.embeddedServiceSidebar .hideTextForMobile .minimizedText::before{
+    display: none !important;
+}
+.embeddedServiceSidebar .loadingBallContainer .loadingBall{
+    color: #ffffff !important;
+}
+.embeddedServiceLiveAgentQueuePosition .queuePositionNumber{
+    font-size: 40px;
+    color: #ffffff;
+	}
+.embeddedServiceLiveAgentStateChatHeader .embeddedServiceLoadingBalls .loadingBall {
+   background-color: #ffffff !important;
+}
+.embeddedServiceLiveAgentQueuePosition .queuePositionMessage p{
+	
+	color: #ffffff !important;
+}
+
+.embeddedServiceSidebar .sidebarMinimized .loadingBallContainer, 
+.embeddedServiceSidebar .hideTextForMobile .loadingBallContainer, 
+.embeddedServiceSidebar .reconnecting .loadingBallContainer {
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453av") !important;
+    height: 48px !important;
+    width: 48px !important;
+    top: 0 !important;
+    left: -5px !important;
+}
+.embeddedServiceSidebar .reconnecting .loadingBallContainer {
+    display: inline-block !important;
+}
+.embeddedServiceSidebar .hideTextForMobile .minimizedText{
+    display: none !important;
+}
+.embeddedServiceSidebar .waitingStateContent .embeddedServiceLoadingBalls {
+    margin: 0px auto !important;
+}
+
+/*** for close and minimize button ***/
+
+.embeddedServiceSidebar .closeButton{
+    position: absolute !important;
+    right: 0 !important;
+    top:0 !important;
+}     
+.embeddedServiceSidebar .minimizeButton{
+    position: absolute !important;
+    left: 0 !important;
+    top:0 !important;
+}
+.embeddedServiceSidebar .closeButton .embeddedServiceIcon svg, 
+.embeddedServiceSidebar .minimizeButton .minimize svg{
+    display: none !important;
+}
+.embeddedServiceSidebar .closeButton .embeddedServiceIcon{
+    width: 16px !important;
+    height: 16px !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005BxjR") !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px !important;
+}
+.embeddedServiceSidebar .minimizeButton .minimize{
+    width: 16px !important;
+    height: 16px !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005BxjU") !important;
+    background-repeat: no-repeat !important;
+    background-position: 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton:focus:before, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton:hover:before{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogBottomButton:focus:before, 
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogBottomButton:hover:before,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-1:focus:before, 
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-1:hover:before{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .postChatButton:focus:before, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .postChatButton:hover:before{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateWaiting .waitingCancelChat:hover:before {
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .startButton:hover, 
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogTopButton:hover,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-0:hover, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .closeChatButton:hover {
+    background-color: #006699 !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogButton:focus {
+    box-shadow: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialogBottomButton:hover .label,
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-1:hover .label {
+    color: #006699 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateWaiting .waitingCancelChat .label{
+    color: #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateWaiting .waitingCancelChat:hover .label{
+    color: #006699 !important;
+}
+        
+/*************##### END CHAT BUTTON STYLES #####*****************/
+
+/************##### Prechat #####*************/
+
+.embeddedServiceSidebar .dockableContainer{
+    border-radius: 0 !important;
+} 
+.embeddedServiceSidebar .embeddedServiceSidebarHeader{
+    border-radius: 0 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatField .uiInput .required{
+    position: static !important;
+    color: #c53622 !important;
+    margin-left: 1px !important;
+}
+.embeddedServiceSidebar .uiButton, .embeddedServiceHelpButton .helpButton .uiButton{
+    border-radius: 0 !important;
+}
+
+/***************##### Chat window #####**************/
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .chatSessionStartTime{
+    margin-bottom: 10px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem .chatContent{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.chasitor .chatContent {
+    background: none !important;
+    color: #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem .timeContent{
+    z-index: 999;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem .avatar.iconAvatar{
+    top: 0 !important;
+    z-index: 9999;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatAction.uiButton svg{
+    fill: #0286cd !important;
+}
+
+/**************** custom css by snapins for **********************************************************************
+
+1. Active chat message in a bubble
+2. End user avatar
+3. Text over the prechat page 
+4. No extended header
+
+*******************************************************************************************************************/
+
+/** Unread message counter. **/
+
+.embeddedServiceSidebar .minimizedContainer.newMessage .content, 
+.embeddedServiceSidebar .minimizedContainer.idleTimeout .content{
+    position: fixed !important;
+    display: block !important;
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 100% !important;
+    bottom: 50px !important;
+    right: 10px !important;
+    bottom: 47px !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    border: 1px solid #fff !important;
+    background-color: #0286cd !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    font-size: 0.875rem !important;
+}
+.embeddedServiceSidebar .minimizedContainer.newMessage .minimizedImage, 
+.embeddedServiceSidebar .minimizedContainer.idleTimeout .minimizedImage {
+    display: none !important;
+}
+.embeddedServiceSidebar .minimizedContainer.newMessage, 
+.embeddedServiceSidebar .minimizedContainer.idleTimeout {
+    display: block !important;
+    width: 40px !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    background-color: #000 !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: -1 !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+}
+
+/** Prechat text **/
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .backgroundImg {
+    display: block !important;
+    height: 103px !important;
+    background-repeat: no-repeat !important;
+    margin-top: 8px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .backgroundImgColorMask {
+    display: none !important;
+}
+
+/** User icon in chat state **/
+
+
+.embeddedServiceSidebar .chatMessage.chasitor .chatContent {
+    margin-right: 35px !important;
+    margin-top: 5px !important;
+}
+
+/** Shortened extended header **/
+
+/**************************** End custom snapins code *****************************************************/
+
+.embeddedServiceSidebar .headerText{
+    margin-bottom: 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarButton:focus{
+    box-shadow: none !important;
+}
+.embeddedServiceSidebar input:focus, 
+.embeddedServiceSidebar input:-webkit-autofill, 
+.embeddedServiceSidebar input:-webkit-autofill:focus {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    -webkit-box-shadow: inset 0 0 0px 9999px #ffffff !important;
+}
+/* .embeddedServiceSidebar reconnecting .loadingBallContainer{
+    margin: 0px auto;
+} */
+
+/*************************************************************************************************************/
+
+.embeddedServiceSidebar .helpButtonDisabled, 
+.embeddedServiceHelpButton .helpButtonDisabled{
+    display: none !important;
+}
+.embeddedServiceHelpButton .embeddedServiceIcon::before{
+    content: "" !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453az") !important;
+    background-repeat: no-repeat;
+    background-position: 0px !important;
+    display: block !important;
+    height: 18px !important;
+    width: 24px !important;
+}
+.embeddedServiceSidebar .newMessage::before, 
+.embeddedServiceSidebar .idleTimeout::before{
+    content: "" !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O00000453az") !important;
+    background-repeat: no-repeat;
+    background-position: 0px !important;
+    display: block !important;
+    height: 100% !important;
+    width: 24px !important;
+    margin: 0px auto !important;
+}
+.embeddedServiceHelpButton .helpButton, 
+.embeddedServiceHelpButton .helpButton .uiButton{
+    height: 48px !important;
+}
+.embeddedServiceHelpButton .helpButton{
+    bottom: 25px !important;
+    right: 25px !important;
+}
+.embeddedServiceHelpButton .helpButton .uiButton{
+    padding: 0px !important;
+}
+.embeddedServiceHelpButton .helpButtonEnabled{
+    min-width: 48px !important;
+    max-width: 48px !important;
+}
+.embeddedServiceHelpButton .embeddedServiceIcon{
+    margin: 0px auto !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .minimizedText{
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .minimizedText::after{
+    content: "" !important;
+    height: 6px !important;
+    width: 6px !important;
+    position: absolute !important;
+    background-color: #0286cd !important;
+    border-radius: 100% !important;
+    top: 4px !important;
+    right: 4px !important;
+}
+.embeddedServiceSidebar .helpButton .minimizedText::after, 
+.embeddedServiceSidebar .newMessage .minimizedText::after, 
+.embeddedServiceSidebar .idleTimeout .minimizedText::after{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .minimizedText>.message{
+    text-overflow: initial !important;
+    margin-top: 1px !important;
+}
+.embeddedServiceSidebar .newMessage .messageContent, .idleTimeout .messageContent{
+    margin: 0px !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.chasitor .timeContent {
+	margin-right: 47px !important;
+    margin-top: -10px;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatMessage.chasitor .uiOutputRichText{
+    text-align: right !important;
+}
+@keyframes embeddedServiceSidebarTimeoutWarning {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(6)
+    }
+}
+.embeddedServiceSidebar .idleTimeout .minimizedText{
+    margin: 0px auto;
+    width: 0px !important;
+    height: 0px !important;
+    border: 3px solid #FF6D6D !important;
+    border-radius: 100% !important;
+
+}
+.embeddedServiceSidebar .idleTimeout .minimizedText{
+  animation: circle 1s infinite linear;
+  animation-name: embeddedServiceSidebarTimeoutWarning;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatHeader .chatOptions {
+    margin-top: 20px !important;
+}
+.embeddedServiceSidebar .chatOptions .embeddedServiceLiveAgentStateChatHeaderOption .embeddedServiceIcon svg{ 
+   display: none !important;
+}
+.embeddedServiceSidebar .chatOptions .embeddedServiceLiveAgentStateChatHeaderOption:first-child .embeddedServiceIcon{ 
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005Bxje") !important;
+    background-position: 5px !important;
+}
+.embeddedServiceSidebar .chatOptions .embeddedServiceLiveAgentStateChatHeaderOption:last-child .embeddedServiceIcon{ 
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005BxjT") !important;
+    background-position: 7px !important;
+}
+.embeddedServiceSidebar .chatOptions .embeddedServiceLiveAgentStateChatHeaderOption .embeddedServiceIcon{ 
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px !important;
+    width: 30px !important;
+    border: none !important;
+}
+.embeddedServiceSidebar .chatMessage.agent .avatar, 
+.embeddedServiceSidebar .chatMessage.chasitor .avatar{
+    display: none !important;
+}
+
+.embeddedServiceSidebar .chatMessage.agent .afterChatMessage{
+    height: 32px !important;
+    width: 32px !important;
+    position: absolute !important;
+    background-image: url("https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005BxjP") !important;
+    background-position: 0px !important;
+    left: -40px !important;
+    top: -5px !important;
+}
+.embeddedServiceSidebar .extendedHeader .alert{
+    padding: 46px 0px 0px 0px !important;
+}
+/* .embeddedServiceSidebar .sidebarMinimized *, 
+.embeddedServiceSidebar .dockableContainer * {
+    box-sizing: initial;
+} */
+.embeddedServiceSidebar .waiting .minimizedText, 
+.embeddedServiceSidebar .reconnecting .minimizedText{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .embeddedServiceLoadingBalls{
+    top: 0px !important;
+    right: 0px !important;
+    left: 0px !important;
+    top: 0px !important;
+    background-position: -4px !important;
+}
+.embeddedServiceSidebar.modalContainer{
+    z-index: 999999 !important;
+}
+.embeddedServiceSidebar textarea.chasitorText:focus,
+.embeddedServiceSidebar .chasitorText.textarea:focus{
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ffffff !important;
+}
+.embeddedServiceSidebar .afterChatMessage{
+    border-radius: 100% !important;
+}
+
+/******* Upgrade Fixes******************/
+.embeddedServiceSidebar .embeddedServiceLiveAgentStatePrechatDefaultUI .backgroundImgColorMask{
+    display: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorControls.textAreaIsFocused{
+    border: 1px solid #ffffff !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarHeader #headerTextLabel{
+    font-family: 'adiLight', 'adiNeueProLight', 'adineuePROCyr-Light', 'AdineuePRO', Helvetica, Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #ffffff !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    font-weight: normal;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatHeader:not(.alert) .message, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatHeaderOption .optionName{
+    white-space: normal !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.agent .chatContent a,  {
+    color: #0d29f3 !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatItem.chasitor .chatContent a {
+	color: #000000!important;
+	
+}
+.embeddedServiceSidebar .embeddedServiceSidebarHeader h2 {
+    margin-top: 0px !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChat .endChatContainer .closeChatButton {
+    border: 1px solid #0286cd !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarMinimizedContainer .messageContent{
+    width: 100% !important;
+}
+.embeddedServiceSidebar .headerItem{
+    cursor: pointer !important;
+}
+.embeddedServiceSidebarHeader .headerItem:focus:after{
+    border: none !important;
+}
+.embeddedServiceSidebar .embeddedServiceSidebarDialogState .dialog-button-1{
+    background: #ffffff !important;
+}
+.embeddedServiceSidebarHeader .headerButton:focus:after {
+    border: none !important;
+}
+.embeddedServiceLiveAgentStateChatHeaderOption:focus {
+    text-decoration: none !important;
+    color: #FFFFFF;
+}
+.embeddedServiceLiveAgentStateChatHeaderOption.chatOption:focus:after {
+    border: none !important;
+}
+.embeddedServiceSidebarExtendedHeader .embeddedServiceLiveAgentStateChatAvatar.isLightningOutContext{
+    display:none !important;
+}
+
+/******************** Proactive chat and Snapins minimize button styles *****************/
+
+.sf-chat-iconx-container {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    height: 74px;
+    padding-top: 0px;
+    z-index: 14;
+    opacity: 1;
+    background: transparent;
+    display: block;
+    padding-right: 25px;
+    /*transition: transform 0.4s ease-in-out;
+    -webkit-transition: transform 0.4s ease-in-out;
+    -moz-transition: transform 0.4s ease-in-out;*/
+}
+ .sf-chat-iconx-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 1 !important;
+    position: relative;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+ .sf-chat-message-container {
+    vertical-align: middle;
+    width: auto;
+    height: 48px;
+    display: table;
+    float: left;
+    margin-left: 13px;
+    margin-right: 5px;
+    transform: translateX(135%);
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    -moz-transition: transform 0.2s ease-in-out;
+}
+ .sf-chat-message-container:after {
+    border: 8px solid transparent;
+    border-color: transparent transparent transparent #FFFFFF;
+    display: block;
+    content: "";
+    margin-top: 100%;
+}
+ .sf-chat-message {
+
+    color: #616363;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: center;
+    width: auto;
+    min-width: 233px;
+    box-shadow: 2px 3px 10px 2px rgba(1, 1, 1, 0.2);
+    -webkit-box-shadow: 2px 3px 10px 2px rgba(1, 1, 1, 0.2);
+    -moz-box-shadow: 2px 3px 10px 2px rgba(1, 1, 1, 0.2);
+    background-color: #ffffff;
+}
+ #sf-chat-msg {
+    cursor: pointer;
+    margin-right: 15px;
+    float: left;
+    width: auto;
+    display: table;
+    height: 44px;
+    padding-left: 17px;
+    padding-top: 3px;
+}
+ #sf-chat-msg span {
+    display: table-cell;
+    vertical-align: middle;
+}
+ .sf-chat-logo-container {
+    height: 48px;
+    width: 48px;
+    background-color: #000000;
+    float: right;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+ #sf-close-msg {
+    width: 16px;
+    height: 44px;
+    float: left;
+    cursor: pointer;
+    margin-left: 13px;
+    background-position: 0px 16px;
+}
+
+ #snapins_invite { 
+	overflow: visible; 
+	visibility: hidden;
+    margin-top: -58px !important;
+    position: fixed !important;
+    margin-top: -75px !important;
+    margin-left: -75px !important;
+}
+
+/**** minimize button*****/
+
+ .sf-chat-alert-container{
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    background-color: #0286cd !important;
+    border-radius: 100%;
+    top: -8px;
+    right: -5px;
+    display: none;
+    overflow: hidden;
+}
+ .sf-new-message-alert{
+    font-family: 'adihausregular','AdihausDIN' !important;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 5px;
+    display: inline-block;
+}
+.sf-show-new-message, .sf-idle-timeout{
+    display: block !important;
+}
+.sf-chat-active{
+    position: absolute !important;
+    height: 6px !important;
+    width: 6px !important;
+    border: none !important;
+    text-align: center;
+    background-color: #0286cd!important;
+    border-radius: 100% !important;
+    top: 9px !important;
+    right: 5px !important;
+    display: block;
+}
+
+/** TimeoutWarming **/
+
+@keyframes snapinsChatTimeoutWarning {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(6)
+    }
+}
+ .sf-idle-timeout .sf-new-message-alert {
+    width: 0px !important;
+    height: 0px !important;
+    border: 3px solid #FF6D6D !important;
+    border-radius: 100% !important;
+    animation: circle 1s infinite linear;
+  	animation-name: snapinsChatTimeoutWarning;
+    margin-top: 7px !important;
+    display: inline-block;
+
+}
+
+
+/**************************** styles based on brand and locale ***************************************************/
+/************************** Adidas Widget ********************************/
+
+.sf-chat-btn .sf-chat-logo-container,
+.sf-chat-btn-stky .sf-chat-logo-container {
+    background-image: url("https://e-com.secure.force.com/adidasContact/servlet/servlet.FileDownload?file=01520000003gds3");
+    background-repeat: no-repeat;
+    background-position: 12px 14px;
+}
+.sf-chat-btn #sf-close-msg {
+     background-image: url("https://e-com.secure.force.com/adidasContact/servlet/servlet.FileDownload?file=01520000003gds8");
+    background-repeat: no-repeat;
+}
+.sf-chat-btn-stky #sf-live-chat-msg{
+    display: none;
+}
+/************************** Adidas Widget END ********************************/
+
+/************************** Reebok Widget END ********************************/
+
+@media (max-width: 767px) {
+     .sf-chat-message {
+        max-width: 226px;
+        min-width: 190px;
+    }
+
+    .sf-chat-btn .sf-chat-message-container {
+        margin-right: 0px;
+    }
+     #sf-chat-msg span {
+        width: 100%;
+        text-align: center;
+    }
+     #sf-chat-msg {
+        padding-left: 5px;
+        margin-right: 5px;
+        max-width: 192px;
+        min-width: 150px;
+    }
+}
+
+/******************** Proactive chat and Snapins minimize button styles END *****************/
+
+/****************************** Snapins Call back Form START ************************************/
+
+/* .embeddedServiceSidebar .embeddedServiceLiveAgentStateOfflineSupportDefaultUI .embeddedServiceSidebarFormField,
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateOfflineSupportDefaultUI .embeddedServiceSidebarButton, 
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateOfflineSupportDefaultUI .embeddedServiceSidebarForm .backgroundImgColorMask{
+    display: none;
+} */
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateOfflineSupportDefaultUI .embeddedServiceSidebarForm .backgroundImgColorMask{
+    display: none;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateOfflineSupportDefaultUI .embeddedServiceSidebarForm .backgroundImg {
+    background-color: #ffffff !important;
+    margin-top: 15px !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceSidebarFormField .uiInput .uiLabel-left {
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-family: 'adihausregular' !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceSidebarFormField .slds-style-inputtext, .embeddedServiceSidebarFormField .slds-style-select {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #b6b6b6 !important;
+    border-radius: 0 !important;
+    font-size: 13px !important;
+    font-family: 'adihausbold', 'adihausregular' !important;
+    color: #000000 !important;
+    height: 20px !important;
+    line-height: 19px !important;
+    padding-left: 0 !important;
+    margin-bottom: 15px !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceSidebarFormField .slds-style-inputtext:focus, .embeddedServiceSidebarFormField .slds-style-select:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 2px solid #000000 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.embeddedServiceSidebarFormField .uiInput .required {
+    color: #c53622 !important;
+    left: 1px !important;
+    float: right !important;
+    position: relative !important;
+}
+
+/****************************** Snapins Call back Form END ************************************/
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorText::-webkit-input-placeholder {
+    letter-spacing: 0px !important;
+    color:#a9a9a9 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorText::-moz-placeholder {
+    letter-spacing: 0px !important;
+    color:#a9a9a9 !important;
+}
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .chasitorText:-ms-input-placeholder {
+    letter-spacing: 0px !important;
+    color:#a9a9a9 !important;
+}
+.embeddedServiceLiveAgentStateChatButtonMessage.agent .chatContent{
+	background:none;
+	float:none;
+	margin-left:41px !important;
+	max-width:100%;
+	width:100%;
+	padding:0
+}
+/** summer'19 css changes START ***/
+.embeddedServiceSidebar .plaintextContent.agent.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI:before{
+	content: '';
+	display: inline-block;
+	height: 32px !important;
+    width: 32px !important;
+    position: absolute !important;
+    content:'';   
+	-moz-border-radius: 16px;
+   -webkit-border-radius: 16px;
+	border-radius:16px;	
+	background-color: #ffffff;
+	background-image:url(https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005BxjP);
+	background-repeat: no-repeat;
+    left: -30px !important;
+    top: 5px !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.chasitor.plaintextContent{
+	background: none !important;
+    color: #0286cd !important;
+}
+
+.embeddedServiceSidebar .plaintextContent.chasitor.embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI:before{
+	height: 32px !important;
+    width: 32px !important;
+    position: absolute !important;
+    content: url(https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005Bxji) !important;   
+    right: -29px !important;
+    top: 2px !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.agent.plaintextContent{
+	background: none !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatPlaintextMessageDefaultUI.plaintextContent{
+	font-size: 14px !important;
+    color: #000000 !important;
+    font-weight: normal !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .footerMenuWrapper .footer-menu-items .slds-dropdown__item>a:focus{
+    border: solid 0.25px #ffffff !important;
+    color: #000000 !important;
+    box-shadow: 0 0 0.25px 0 #000000 !important;
+	text-decoration: none !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .footerMenuWrapper .footer-menu-items .slds-dropdown__item>a{
+	color: #000000 !important;
+}
+
+.embeddedServiceSidebar .embeddedServiceLiveAgentStateChatInputFooter .footerMenuWrapper .footer-menu-items .slds-dropdown__item>a:hover{    
+	text-decoration: underline !important;
+}
+/** summer'19 css changes END ***/
+
+/**  css changes after lwc addition START ***/
+
+.agent ~ div.previews {
+    content: '';
+	display: inline-block;
+	height: 32px !important;
+    width: 32px !important;
+    position: absolute !important;
+    content:'';   
+	-moz-border-radius: 16px;
+   -webkit-border-radius: 16px;
+	border-radius:16px;	
+	background-color: #ffffff;
+	background-image:url(https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005BxjP);
+	background-repeat: no-repeat;
+    left: 25px !important;
+    top: -5px !important;
+}
+
+.agent.chat-content{	
+	display: block;
+    font-family: "adihausregular","AdihausDIN" !important;
+	text-align: left;
+    padding-left: 45px;
+	white-space: pre-wrap;
+	line-height: 1.3;
+}
+ 
+ .agent.chat-content span a{	 
+	 text-decoration: none !important;
+	color:blue;
+ }
+.chasitor ~ div.previews {
+    height: 32px !important;
+    width: 32px !important;
+    position: absolute !important;
+    content: url(https://www.contactus.adidas.com/adidasContact/servlet/servlet.FileDownload?file=0150O000005Bxji) !important;   
+    right: 15px !important;
+    top: -5px !important;
+}
+
+.chasitor.chat-content{
+	    text-align: -webkit-right;
+		padding:10px;
+}
+
+/**  css changes after lwc addition END ***/

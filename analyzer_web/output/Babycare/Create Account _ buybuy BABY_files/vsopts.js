@@ -1,0 +1,1 @@
+window._vsq = window._vsq || []; window._vsq.push(['vsOpts', {site: 'bedbathandbeyond', vip: 'vsvipva01.rightnowtech.com', poolId: '16425:1', vsEnabled: true, cacheDomain: 'buybuybabycom.widget.custhelp.com'}]);

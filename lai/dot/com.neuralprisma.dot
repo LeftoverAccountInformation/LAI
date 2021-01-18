@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Are you really want to delete your account? This action cannot be undone." -> "nattr::delete_account_warning_desc"
+"adstr::Delete account" -> "nattr::profile_delete_account"
+"nattr::delete_account_warning_desc" -> "act::MyProfileFragment.smali"
+}

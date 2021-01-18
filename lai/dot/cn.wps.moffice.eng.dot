@@ -1,0 +1,9 @@
+digraph G {
+"adstr::If you delete your account, your data will be irrevocably eliminate." -> "nattr::aal"
+"adstr::2、Click delete my account." -> "nattr::aaq"
+"adstr::Delete Account" -> "nattr::aep"
+"nattr::aep" -> "lay::ke.xml"
+"nattr::aep" -> "act::fme.smali"
+"lay::ke.xml" -> "toplay::ke.xml"
+"toplay::ke.xml" -> "act::fmf.smali"
+}

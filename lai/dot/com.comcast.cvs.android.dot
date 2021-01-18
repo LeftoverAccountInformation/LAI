@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Close Account Pop up" -> "nattr::modal_check_account_info_close_button_desc"
+"nattr::modal_check_account_info_close_button_desc" -> "lay::modal_check_account.xml"
+"lay::modal_check_account.xml" -> "toplay::modal_check_account.xml"
+"toplay::modal_check_account.xml" -> "frag::BillPayBankFragment.smali"
+}

@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Unable to send message. This person has closed their account" -> "nattr::message_send_user_inactive"
+"adstr::You can update your subscription package or cancel your subscription through your Google Play account." -> "nattr::subscription_management_subtitle"
+"nattr::subscription_management_subtitle" -> "lay::activity_subscription_management.xml"
+"nattr::message_send_user_inactive" -> "act::nonfiction.smali"
+"lay::activity_subscription_management.xml" -> "toplay::activity_subscription_management.xml"
+"toplay::activity_subscription_management.xml" -> "act::SubscriptionManagementActivity.smali"
+}

@@ -1,0 +1,21 @@
+var om_app_pix = new Array();
+om_app_pix[0] = new Image();
+om_app_pix[0].src = "https://cm.g.doubleclick.net/pixel?google_nid=yo&google_hm=MTAxMzYxNjg4NDMyMw&google_sc&google_cm";
+om_app_pix[1] = new Image();
+om_app_pix[1].src = "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1044284962/?value=0&label=6Rz1CJr54wQQooz68QM&guid=ON&script=0";
+om_app_pix[2] = new Image();
+om_app_pix[2].src = "https://match.adsrvr.org/track/cmf/generic?ttd_pid=o456qfe&ttd_tpi=1";
+om_app_pix[3] = new Image();
+om_app_pix[3].src = "https://secure.adnxs.com/setuid?entity=6&code=1013616884323";
+om_app_pix[4] = new Image();
+om_app_pix[4].src = "https://idsync.rlcdn.com/394499.gif?partner_uid=1013616884323";
+om_app_pix[5] = new Image();
+om_app_pix[5].src = "https://tag.adaraanalytics.com/ps/aasync?ckid=MTAxMzYxNjg4NDMyM3wxNTc2MzU0NzczNjcy";
+om_app_pix[6] = new Image();
+om_app_pix[6].src = "https://pixel.rubiconproject.com/tap.php?v=7726&nid=2242&put=1013616884323&expires=365";
+om_app_pix[7] = new Image();
+om_app_pix[7].src = "https://dsum-sec.casalemedia.com/rum?cm_dsp_id=179&external_user_id=1013616884323";
+om_app_pix[8] = new Image();
+om_app_pix[8].src = "https://us-u.openx.net/w/1.0/sd?id=537073024&val=1013616884323";
+
+

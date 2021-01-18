@@ -1,0 +1,4 @@
+digraph G {
+"adstr::Are you sure you want to reset? This will permanently delete all data for this account from the server." -> "nattr::debug_reset_body"
+"nattr::debug_reset_body" -> "act::DebugMenuHelper.smali"
+}

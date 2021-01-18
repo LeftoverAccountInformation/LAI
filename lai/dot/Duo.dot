@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Delete Duo account" -> "nattr::pref_delete_account_header"
+"adstr::Delete your Duo account?" -> "nattr::pref_delete_account_title"
+"nattr::pref_delete_account_title" -> "act::fsu.smali"
+}

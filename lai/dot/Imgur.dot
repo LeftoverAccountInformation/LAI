@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account_action_text"
+"adstr::Are you sure you want to delete your account?" -> "nattr::delete_account_prompt_title"
+"nattr::delete_account_action_text" -> "lay::edit_profile_activity.xml"
+"nattr::delete_account_action_text" -> "act::DeleteAccountActivity.smali"
+"nattr::delete_account_prompt_title" -> "act::EditProfileActivity.smali"
+"lay::edit_profile_activity.xml" -> "toplay::edit_profile_activity.xml"
+"toplay::edit_profile_activity.xml" -> "act::EditProfileActivity.smali"
+}

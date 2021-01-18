@@ -1,0 +1,3 @@
+digraph G {
+"adstr::Cancel account" -> "nattr::label_cs_cancel_my_account_link"
+}

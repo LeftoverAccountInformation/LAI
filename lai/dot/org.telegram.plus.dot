@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Delete my account if away for" -> "nattr::DeleteAccountIfAwayFor2"
+"adstr::Deleted Account" -> "nattr::HiddenName"
+"adstr::Cancel account reset" -> "nattr::CancelAccountReset"
+"nattr::DeleteAccountIfAwayFor2" -> "act::PrivacySettingsActivity$ListAdapter.smali"
+"nattr::HiddenName" -> "act::UserObject.smali"
+"nattr::HiddenName" -> "act::ProfileSearchCell.smali"
+"nattr::HiddenName" -> "act::DialogMeUrlCell.smali"
+"nattr::HiddenName" -> "act::DialogCell.smali"
+"nattr::CancelAccountReset" -> "act::CancelAccountDeletionActivity$PhoneView.smali"
+"nattr::CancelAccountReset" -> "act::CancelAccountDeletionActivity$LoginActivitySmsView.smali"
+}

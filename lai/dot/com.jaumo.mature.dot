@@ -1,0 +1,8 @@
+digraph G {
+"adstr::Cancel membership and delete user account? This action cannot be undone. Your data will be deleted irretrievably." -> "nattr::confirm_account_delete"
+"adstr::Delete account" -> "nattr::delete_account"
+"nattr::confirm_account_delete" -> "act::Logout.smali"
+"nattr::delete_account" -> "act::MenuItem$DeleteAccount.smali"
+"nattr::delete_account" -> "act::Logout.smali"
+"nattr::delete_account" -> "act::Logout$10$1.smali"
+}

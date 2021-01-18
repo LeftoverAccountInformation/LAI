@@ -1,0 +1,9 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::account_settings_delete_account"
+"adstr::Any Golden Ratio logo you purchased will be deleted too. Are you sure to delete your account?" -> "nattr::delete_account_prompt"
+"nattr::account_settings_delete_account" -> "lay::account_settings.xml"
+"nattr::account_settings_delete_account" -> "act::LogoPitActivity$102$1.smali"
+"nattr::delete_account_prompt" -> "act::LogoPitActivity$102$1.smali"
+"lay::account_settings.xml" -> "toplay::account_settings.xml"
+"toplay::account_settings.xml" -> "act::LogoPitActivity$102.smali"
+}

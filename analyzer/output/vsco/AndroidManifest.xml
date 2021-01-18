@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.vsco.cam">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="true"/>
+    <uses-permission android:name="android.permission.INTERNET" android:required="true"/>
+    <uses-permission android:name="com.android.vending.BILLING" android:required="true"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" android:required="true"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <permission android:name="com.vsco.cam.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.vsco.cam.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" android:required="true"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@drawable/logo" android:label="@string/app_name" android:largeHeap="true" android:name="com.vsco.cam.VscoCamApplication" android:supportsRtl="true" android:testOnly="false" android:theme="@style/noAnimTheme">
+        <provider android:authorities="com.vsco.cam.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="c8afd2ad270e4420927cb4e8631da07b9c1d4f85"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.accountkit.ApplicationName" android:value="@string/app_name"/>
+        <meta-data android:name="com.facebook.accountkit.ClientToken" android:value="@string/facebook_accountkit_client_token"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAw8quHypHzCdyUGMTkjR6RbB6-3tV9ATE"/>
+        <meta-data android:name="com.mixpanel.android.MPConfig.AutoShowMixpanelUpdates" android:value="false"/>
+        <meta-data android:name="com.mixpanel.android.MPConfig.DisableViewCrawler" android:value="true"/>
+        <meta-data android:name="com.vsco.cam.utility.imagecache.glide.GlideConfiguration" android:value="GlideModule"/>
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_mhCkhb7S5c0FZLIxSXcUjmjgErfCwJjC"/>
+        <service android:name="com.vsco.cam.puns.PushService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="com.vsco.cam.puns.VscoPushNotificationReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.vsco.cam"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vsco.cam.puns.UpdatePunsDBReceiver"/>
+        <receiver android:exported="true" android:name="com.vsco.cam.VscoInstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.vsco.cam.puns.VscoUpdateBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.vsco.cam.notificationcenter.CheckNotificationService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.vsco.cam.video.export.ExportVideoIntentService"/>
+        <receiver android:name="com.vsco.cam.notificationcenter.CheckNotificationReceiver"/>
+        <receiver android:label="VSCO Camera" android:name="com.vsco.cam.widget.CameraWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/camera_widget_info"/>
+        </receiver>
+        <receiver android:exported="true" android:name="io.branch.referral.InstallListener">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.vsco.cam.navigation.LithiumActivity" android:screenOrientation="portrait" android:theme="@style/preview_white">
+            <layout android:minHeight="700.0dip" android:minWidth="400.0dip"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="vsco"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="open" android:scheme="vsco"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.account.changepassword.ChangePasswordActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_change_username" android:launchMode="singleTop" android:name="com.vsco.cam.account.changeusername.ChangeUsernameActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.account.publish.PublishActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.account.GridEditImageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:name="com.vsco.cam.studio.imagedetail.StudioDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.editimage.EditImageActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.about.vsco.SettingsAboutVscoActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.data.SettingsPerformanceActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.about.SettingsAboutActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.about.privacypolicy.SettingsAboutPrivacyPolicy" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.about.termsofuse.SettingsAboutTermsOfUse" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.licensing.SettingsLicensingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.SettingsSupportActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.privacy.SettingsPrivacyActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.about.photocredits.SettingsAboutPhotoCreditsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.about.communityguidelines.SettingsAboutCommunityGuidelinesActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.settings.preferences.SettingsPreferencesActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.vsco.cam.settings.social.SettingsSocialActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.camera.widget.CameraActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.camera.widget.WidgetCameraActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.vsco.cam.widget.CAMERA_WIDGET_ACTION"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.account.reportimage.ReportImageActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.account.reportcontent.ReportContentActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.vsco.cam.education.EducationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.billing.detail.StoreDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.settings.debug.SettingsDebugActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.account.editemail.EditEmailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.article.imagedetail.ArticleImageDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.article.video_webview.ArticleWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.article.report.ReportJournalActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.billing.StoreActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.settings.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.account.editprofile.EditProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.vsco.cam.euconsent.EUConsentActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.splash.SignInSplashActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.verify.VerifyEmailActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.findmyfriends.RequestPermissionActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.signin.SignInActivity" android:screenOrientation="portrait" android:theme="@style/preview_white_onboarding"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.signup.SignUpActivity" android:screenOrientation="portrait" android:theme="@style/preview_white_onboarding"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.eu.OnboardingEUConsentActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.createusername.CreateUsernameActivity" android:screenOrientation="portrait" android:theme="@style/preview_white_onboarding"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.subscription.upsell.SubscriptionUpsellOnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.subscription.checkout.SubscriptionCheckoutOnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.entitlement.SubscriptionEntitlementFeedActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.success.SubscriptionSuccessActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.admin.SubscriptionAdminActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.update.SubscriptionMessageActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.subscription.checkout.SubscriptionCheckoutActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.fmf.contacts.FMFRecommendedContactsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.fmf.contacts.OnboardingContactsUploadActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.fmf.contacts.OnboardingTwitterUploadActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.suggested.SuggestedUsersOnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.editimage.management.EditManagementActivity" android:screenOrientation="portrait" android:theme="@style/EditManagementAppTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.video.edit.EditVideoActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.vsco.cam.imports.ImportActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.accountkit.AccountKitActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/com_accountkit_button_log_in" android:launchMode="singleTop" android:name="com.facebook.accountkit.ui.AccountKitActivity" android:screenOrientation="portrait" android:theme="@style/AccountKitTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.resetpassword.ResetPasswordPhoneActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.nux.debug.experiments.SettingsDebugExperimentsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.celebrate.inapprating.InAppRatingSurveyActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.homework.list.HomeworkListActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.homework.detail.HomeworkDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.homework.submitted.HomeworkSubmittedActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.vsco.cam.homework.mediadetail.HomeworkMediaDetailActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.google.firebase.ml.vision.DEPENDENCIES" android:value="barcode,face"/>
+        <activity android:hardwareAccelerated="false" android:name="com.vsco.ml.test.MLTestActivity"/>
+        <activity android:exported="true" android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity" android:noHistory="true"/>
+        <provider android:authorities="com.vsco.cam.AccountKitInitialization" android:exported="false" android:name="com.facebook.accountkit.internal.AccountKitInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.vsco.cam.workmanager-init" android:exported="false" android:multiprocess="true" android:name="androidx.work.impl.WorkManagerInitializer"/>
+        <service android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:enabled="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/enable_system_alarm_service_default" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.vsco.cam.lifecycle-trojan" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PhoneNumberActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ConfirmationCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.LoginCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PinCodeActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.FailureActivity" android:taskAffinity="com.digits.sdk.android"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ContactsActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.EmailRequestActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PhoneNumberActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ConfirmationCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.LoginCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.FailureActionBarActivity" android:taskAffinity="com.digits.sdk.android"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.ContactsActionBarActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.InviteActionBarActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.PinCodeActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.EmailRequestActionBarActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.digits.sdk.android.InviteActivity" android:taskAffinity="com.digits.sdk.android" android:windowSoftInputMode="stateHidden"/>
+        <service android:enabled="true" android:exported="false" android:name="com.digits.sdk.android.ContactsUploadService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.digits.sdk.android.AttributableInviteDownloadService"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.vsco.cam"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.vsco.cam.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="com.vsco.cam.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.twitter.sdk.android.core.identity.OAuthActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:icon="@drawable/tw__transparent" android:label="@string/kit_name" android:name="com.twitter.sdk.android.core.identity.ShareEmailActivity"/>
+    </application>
+</manifest>

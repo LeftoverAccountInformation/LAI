@@ -1,0 +1,7 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::Are you sure to delete your account? All training data within Keep will not be able to recover. Confirm by entering 42 below." -> "nattr::delete_account_warning"
+"nattr::delete_account" -> "lay::dialog_content_delete_account.xml"
+"nattr::delete_account_warning" -> "lay::dialog_content_delete_account.xml"
+"lay::dialog_content_delete_account.xml" -> "toplay::dialog_content_delete_account.xml"
+}

@@ -1,0 +1,4 @@
+digraph G {
+"adstr::If you do not agree to the above Terms and log out, your files will not sync to the Cloud. If you want to delete your account,please contact us at support@intsig.com. Send us an email with your registered email account. We will delete your account after verifying relevant information." -> "nattr::dissagree_privacy_dialog_content2"
+"nattr::dissagree_privacy_dialog_content2" -> "act::t.smali"
+}

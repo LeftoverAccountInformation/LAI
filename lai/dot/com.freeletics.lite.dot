@@ -1,0 +1,7 @@
+digraph G {
+"adstr::Delete account" -> "nattr::fl_mob_bw_settings_delete_account_cta"
+"nattr::fl_mob_bw_settings_delete_account_cta" -> "lay::fragment_settings_privacy.xml"
+"lay::fragment_settings_privacy.xml" -> "toplay::fragment_settings_privacy.xml"
+"toplay::fragment_settings_privacy.xml" -> "frag::PrivacySettingsFragment.smali"
+"frag::PrivacySettingsFragment.smali" -> "act::PrivacySettingsFragment$Companion.smali"
+}

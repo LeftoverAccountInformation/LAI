@@ -1,0 +1,4 @@
+digraph G {
+"adstr::This account cannot be deleted in Polaris Office. Go to Settings > Account and Sync to delete this account." -> "nattr::po_err_delete_device_config_account"
+"nattr::po_err_delete_device_config_account" -> "act::FmtHomeNavigatorStorageList$4.smali"
+}

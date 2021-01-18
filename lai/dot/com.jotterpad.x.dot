@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Proceed to delete account?" -> "nattr::alert_account_unlink_msg"
+"adstr::Delete Account" -> "nattr::alert_account_unlink_title"
+"nattr::alert_account_unlink_msg" -> "act::am.smali"
+"nattr::alert_account_unlink_title" -> "act::am.smali"
+}

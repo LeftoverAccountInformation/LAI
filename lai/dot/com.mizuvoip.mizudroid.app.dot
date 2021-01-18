@@ -1,0 +1,5 @@
+digraph G {
+"adstr::Delete account" -> "nattr::dialog_ac_deltitle"
+"nattr::dialog_ac_deltitle" -> "act::Accounts.smali"
+"nattr::dialog_ac_deltitle" -> "act::lh.smali"
+}

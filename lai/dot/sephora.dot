@@ -1,0 +1,3 @@
+digraph G {
+"nattr::terms_and_conditions_flash_description" -> "act::TermsAndConditionsFlashBinder.smali"
+}

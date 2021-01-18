@@ -1,0 +1,10 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::delete_account"
+"adstr::Please input password to permanently delete your account." -> "nattr::input_password_to_delete_account"
+"nattr::delete_account" -> "lay::setting_account.xml"
+"nattr::delete_account" -> "act::DeleteAccountActivity.smali"
+"nattr::input_password_to_delete_account" -> "act::DeleteAccountActivity$4.smali"
+"nattr::input_password_to_delete_account" -> "act::DeleteAccountActivity$1$1.smali"
+"lay::setting_account.xml" -> "toplay::setting_account.xml"
+"toplay::setting_account.xml" -> "act::AccountActivity.smali"
+}

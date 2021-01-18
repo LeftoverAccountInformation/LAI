@@ -1,0 +1,6 @@
+digraph G {
+"adstr::Delete Account" -> "nattr::setting_delete_account"
+"nattr::setting_delete_account" -> "act::PersonInfoActivity.smali"
+"nattr::setting_delete_account" -> "act::DeleteAccountActivity.smali"
+"nattr::setting_delete_account" -> "act::DeleteAccountFinishActivity.smali"
+}

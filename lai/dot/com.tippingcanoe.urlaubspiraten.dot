@@ -1,0 +1,18 @@
+digraph G {
+"adstr::Our updated Privacy Policy explains what information we collect, how we use and share it, and the choices you have, including how to manage your privacy settings, access the information we have about you, and delete your account." -> "nattr::privacy_policy__message"
+"adstr::Delete the account" -> "nattr::user__delete_account"
+"adstr::Are you sure you want to delete the current account?" -> "nattr::user__delete_account_message"
+"nattr::privacy_policy__message" -> "lay::activity_data_compliance.xml"
+"nattr::user__delete_account" -> "lay::fragment_user_info.xml"
+"nattr::user__delete_account" -> "act::b.smali"
+"lay::activity_data_compliance.xml" -> "toplay::activity_data_compliance.xml"
+"lay::fragment_user_info.xml" -> "toplay::fragment_user_info.xml"
+"toplay::activity_data_compliance.xml" -> "act::ActivityDataCompliance.smali"
+"toplay::activity_data_compliance.xml" -> "act::DataBinderMapperImpl$b.smali"
+"toplay::activity_data_compliance.xml" -> "act::ActivityDataComplianceBinding.smali"
+"toplay::activity_data_compliance.xml" -> "act::DataBinderMapperImpl.smali"
+"toplay::fragment_user_info.xml" -> "act::b.smali"
+"toplay::fragment_user_info.xml" -> "act::DataBinderMapperImpl$b.smali"
+"toplay::fragment_user_info.xml" -> "act::FragmentUserInfoBinding.smali"
+"toplay::fragment_user_info.xml" -> "act::DataBinderMapperImpl.smali"
+}

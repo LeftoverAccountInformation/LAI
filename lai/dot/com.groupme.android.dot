@@ -1,0 +1,12 @@
+digraph G {
+"adstr::Confirm Delete Account" -> "nattr::confirm_delete_account_title"
+"adstr::Delete GroupMe Account" -> "nattr::delete_account_title"
+"adstr::Delete GroupMe account" -> "nattr::profile_label_delete_account"
+"nattr::profile_label_delete_account" -> "lay::fragment_profile.xml"
+"nattr::confirm_delete_account_title" -> "act::ConfirmDeleteAccountActivity.smali"
+"nattr::delete_account_title" -> "act::DeleteAccountActivity.smali"
+"lay::fragment_profile.xml" -> "toplay::fragment_profile.xml"
+"toplay::fragment_profile.xml" -> "frag::ProfileFragment.smali"
+"frag::ProfileFragment.smali" -> "act::EditGroupProfileActivity.smali"
+"frag::ProfileFragment.smali" -> "act::ProfileActivity.smali"
+}

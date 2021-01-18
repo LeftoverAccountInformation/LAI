@@ -1,0 +1,6 @@
+digraph G {
+"adstr::You can exercise your rights to revoke authorization, delete account, clear data, and export data." -> "nattr::user_data_right_summary"
+"nattr::user_data_right_summary" -> "lay::activity_about.xml"
+"lay::activity_about.xml" -> "toplay::activity_about.xml"
+"toplay::activity_about.xml" -> "act::AboutActivity.smali"
+}

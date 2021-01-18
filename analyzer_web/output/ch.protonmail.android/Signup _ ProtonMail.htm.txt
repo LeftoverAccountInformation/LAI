@@ -1,0 +1,76 @@
+  * [ Back to protonmail.com ](https://protonmail.com/) [ Back to login ](https://mail.protonmail.com/login)
+  * __ Report bug
+
+  * [Sign up for free](https://protonmail.com/signup)
+  * [Log out](https://mail.protonmail.com/login)
+
+![](./Signup _ ProtonMail_files/logo-purple.svg)
+
+##  __ Create your account
+
+Take back your privacy! Creating your secure email account takes less than 2
+minutes.
+
+Username and domain
+
+This will be your new ProtonMail email address.
+
+__
+
+Something went wrong, please refresh the page in order to proceed. If you
+still see this error message please contact our support team.
+
+[Contact support team](https://protonmail.com/support-form "Contact the
+ProtonMail support team.")
+
+Password
+
+Field required
+
+_Show password_ _Hide password_
+
+Field required
+
+_Show password_ _Hide password_
+
+If you lose your password, you will not be able to read your emails.
+
+Recovery email (optional)
+
+This is used to recover your account if you get locked out or forget your
+password.
+
+__
+
+Something went wrong, please refresh the page in order to proceed. If you
+still see this error message please contact our support team.
+
+[Contact support team](https://protonmail.com/support-form "Contact the
+ProtonMail support team.")
+
+Submit
+
+## Generating keys...
+
+This can take a few seconds or a few minutes depending on your device.
+
+## Creating account
+
+## Sign up failed
+
+An error occured while trying to create your account. To see common problems
+and solutions [click here](https://protonmail.com/support/knowledge-base
+/common-sign-up-problems-and-solutions/).
+
+  1. __ Generating keys
+  2. __ Creating new account
+  3. __ Logging in to new account
+  4. __ Setting up new account
+  5. __ Done
+  6. __ Redirecting
+
+2019 ProtonMail.com - Made globally, hosted in Switzerland.
+
+ProtonMail requires Javascript. Enable Javascript and reload this page to
+continue.
+
