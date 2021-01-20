@@ -1,1 +1,0 @@
-var _rnd=Math.random(); var __prot=document.location.protocol=='https:'?'https:':'http:';var __i=new Image(1, 1);__i.style.display='none';__i.src=__prot + "//pixel.everesttech.net/5101/s?s=53235";
