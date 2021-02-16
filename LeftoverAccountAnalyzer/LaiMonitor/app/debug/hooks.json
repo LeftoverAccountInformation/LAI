@@ -1,0 +1,119 @@
+{
+    "hookConfigs": [
+        {
+            "class_name": "android.database.sqlite.SQLiteDatabase",
+            "method": "delete",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.firestore.FirebaseFirestore",
+            "method": "query",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.database.FirebaseDatabase",
+            "method": "query",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.database.DatabaseReference",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.parse.ParseUser",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "androidx.room.RoomDatabase",
+            "method": "query",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "android.app.SharedPreferencesImpl",
+            "method": "putString",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "javax.net.ssl.HttpsURLConnection",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "android.net.Network",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "java.net.HttpURLConnection",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "java.net.URLConnection",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "java.net.SocketImpl",
+            "method": "clear",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "android.app.SharedPreferencesImpl.EditorImpl",
+            "method": "putLong",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "java.net.Socket",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "android.os.Bundle",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.auth.User",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.auth.Auth",
+            "method": "CreateUserWithEmailAndPasswordAsync",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.auth.FirebaseUser",
+            "method": "",
+            "thisObject": false,
+            "type": "fingerprint"
+        },
+        {
+            "class_name": "com.google.firebase.auth.FirebaseAuth",
+            "method": "CreateUserWithEmailAndPasswordAsync",
+            "thisObject": false,
+            "type": "fingerprint"
+        }
+    ], 
+    "trace": false
+}
