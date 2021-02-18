@@ -1,4 +1,8 @@
+
 Tool Chain for Leftover Account Information
+
+
+
 
 Account Deletion Analyzer
 
@@ -7,6 +11,8 @@ Video:
 Source code directory: AccountDeletionAnalyzer
 
 Manual: software_manual.docx
+
+
 
 
 Leftover Account Analyzer
@@ -20,6 +26,8 @@ Manual: software_manual.docx
               LeftoverAccountAnalyzer/LAIMonitor manual.docx
 
 
+
+
 Leftover Account Cleaner
 
 Video: https://youtu.be/aZ5epfEi_5c
@@ -27,6 +35,8 @@ Video: https://youtu.be/aZ5epfEi_5c
 Source code directory: LeftoverAccountCleaner
 
 Manual: software_manual.docx
+
+
 
 
 Retention Period Analyzer
