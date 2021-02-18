@@ -24,11 +24,9 @@ Video: https://youtu.be/iyV_ui-w2Ao
            https://youtu.be/mHY414Hbnds
 
 Source code directory: LeftoverAccountAnalyzer
-
                                      LeftoverAccountAnalyzer/LAIMonitor
 
 Manual: software_manual.docx
-
               LeftoverAccountAnalyzer/LAIMonitor manual.docx
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
