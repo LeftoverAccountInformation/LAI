@@ -27,6 +27,8 @@ Source code directory: LeftoverAccountAnalyzer
 
 Manual: software_manual.docx
               LeftoverAccountAnalyzer/LAIMonitor manual.docx
+              
+LAIMonitor Log: LeftoverAccountAnalyzer/LAIMonitor/log
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
