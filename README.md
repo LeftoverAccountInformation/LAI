@@ -12,7 +12,7 @@ Video: https://youtu.be/s1PJhbyQoIY
 
 Source code directory: AccountDeletionAnalyzer
 
-Manual: software_manual.docx
+Manual: software_manual.pdf
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -25,8 +25,8 @@ Video: https://youtu.be/iyV_ui-w2Ao
 Source code directory: LeftoverAccountAnalyzer
                                      LeftoverAccountAnalyzer/LAIMonitor
 
-Manual: software_manual.docx
-              LeftoverAccountAnalyzer/LAIMonitor manual.docx
+Manual: software_manual.pdf
+              LeftoverAccountAnalyzer/LAIMonitor manual.pdf
               
 LAIMonitor Log: LeftoverAccountAnalyzer/LAIMonitor/log
 
@@ -40,7 +40,7 @@ Video: https://youtu.be/HbESAdeAaRw
 
 Source code directory: LeftoverAccountCleaner
 
-Manual: software_manual.docx
+Manual: software_manual.pdf
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -51,6 +51,6 @@ Video: https://youtu.be/H3fwgTFcxU4
 
 Source code directory: RetentionPeriodAnalyzer
 
-Manual: software_manual.docx
+Manual: software_manual.pdf
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
