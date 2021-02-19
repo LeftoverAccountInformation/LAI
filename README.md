@@ -36,7 +36,7 @@ LAIMonitor Log: LeftoverAccountAnalyzer/LAIMonitor/log
 
 Leftover Account Cleaner
 
-Video: https://youtu.be/aZ5epfEi_5c
+Video: https://youtu.be/HbESAdeAaRw
 
 Source code directory: LeftoverAccountCleaner
 
