@@ -58,6 +58,6 @@ Manual: software_manual.pdf
 *********************************************************************
 Dataset of testing
 *********************************************************************
-1435 apps: https://docs.google.com/forms/d/e/1FAIpQLSfcMgZ22GY86nLZw48-AbVWNIhb-FIL9D9pb8q-Kt32xIC0Zg/viewform?usp=sf_link
+1435 apps (apk files and website files): https://docs.google.com/forms/d/e/1FAIpQLSfcMgZ22GY86nLZw48-AbVWNIhb-FIL9D9pb8q-Kt32xIC0Zg/viewform?usp=sf_link
 
 Password:  UnitTesting123!
