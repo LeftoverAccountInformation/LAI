@@ -54,3 +54,8 @@ Source code directory: RetentionPeriodAnalyzer
 Manual: software_manual.pdf
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
+
+*********************************************************************
+Dataset of testing
+*********************************************************************
+1435 apps: https://drive.google.com/drive/folders/1O71i_ignsG48AVBFteEavAa7FO8PGK4X?usp=sharing
