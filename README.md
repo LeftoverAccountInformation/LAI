@@ -60,4 +60,4 @@ Dataset of testing
 *********************************************************************
 1435 apps (apk files and website files): https://docs.google.com/forms/d/e/1FAIpQLSdmvjGM2ixPsYPBmHc2d07sKeP4hFGsdkoSmQtVgdgOWpM9ww/viewform?usp=sf_link
 
-Password:  UnitTesting123!
+Password for login and unzipping files:  UnitTesting123!
