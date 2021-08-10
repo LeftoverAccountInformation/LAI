@@ -63,3 +63,6 @@ Dataset of testing
 Password for login:  UnitTesting123!
 
 Password for unzipping files: Testing123@
+
+
+![alt text](https://github.com/LeftoverAccountInformation/LAI/blob/master/software_manual.pdf?raw=true)
