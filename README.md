@@ -109,12 +109,7 @@ II – Project structure
 		
 	AccountDeletionAnalyzer/duc
 		contains all the tools to be used with Soot framework
-		
-	calc
-		contains all the templates to be used for data calculation
-	
-	clang
-		contains all the tools implemented in C language
+
 
 III – Notations
 	
