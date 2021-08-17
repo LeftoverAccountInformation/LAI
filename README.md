@@ -87,22 +87,29 @@ II – Project structure
 	The project consists of the following packages:
 
 	LeftoverAccountAnalyzer/lai
-
 		contains all the tools for automated testing android apps via appium
+		
 	LeftoverAccountAnalyzer/lai_web
 		contains all the tools for automated testing websites via selenium
+		
 	AccountDeletionAnalyzer/analyzer
 		contains all the tools related to account deletion functionality for android apps
+		
 	AccountDeletionAnalyzer/analyzer_web
 		contains all the tools related to account deletion functionality for the web
+		
 	AccountDeletionAnalyzer/analyzer_combiner
 		contains all the tools which combine results from the two packages analyzer and analyzer_web
+		
 	RetentionPeriodAnalyzer/pystatparser or AccountDeletionAnalyzer/pystatparser
 		contains a parser for natural language processing
+		
 	AccountDeletionAnalyzer/nlp
 		contains all the tools which use pystatparser for analyzing the semantics in natural language processing
+		
 	AccountDeletionAnalyzer/duc
 		contains all the tools to be used with Soot framework
+		
 	calc
 		contains all the templates to be used for data calculation
 	latex
