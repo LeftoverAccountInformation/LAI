@@ -112,8 +112,7 @@ II – Project structure
 		
 	calc
 		contains all the templates to be used for data calculation
-	latex
-		contains all the templates to be used for latex (please ask professor Shan)
+	
 	clang
 		contains all the tools implemented in C language
 
